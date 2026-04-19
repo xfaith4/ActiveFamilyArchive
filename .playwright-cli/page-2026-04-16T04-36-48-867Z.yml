@@ -1,0 +1,19 @@
+- generic [ref=e4]:
+  - img [ref=e5]
+  - heading "Fuhr Family Archive" [level=1] [ref=e8]
+  - paragraph [ref=e9]: A private history archive for the family
+  - generic [ref=e10]:
+    - generic [ref=e11]: Family Profiles
+    - generic [ref=e12]: ·
+    - generic [ref=e13]: Photo Gallery
+    - generic [ref=e14]: ·
+    - generic [ref=e15]: Genealogical Records
+  - button "Sign in with Google" [ref=e17] [cursor=pointer]:
+    - img [ref=e18]
+    - text: Sign in with Google
+  - generic [ref=e24]:
+    - generic [ref=e26]: or (local development)
+    - generic [ref=e27]:
+      - textbox "Local dev password" [ref=e28]
+      - button "Login Locally (Dev Only)" [ref=e29] [cursor=pointer]
+  - paragraph [ref=e30]: Sign in with your Google account to access the archive. Access is by invitation only.

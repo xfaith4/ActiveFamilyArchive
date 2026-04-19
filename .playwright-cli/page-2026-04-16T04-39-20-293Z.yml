@@ -1,0 +1,971 @@
+- generic [ref=e31]:
+  - banner [ref=e32]:
+    - generic [ref=e33]:
+      - generic [ref=e34]:
+        - generic [ref=e35]:
+          - heading "Fuhr Family Archive" [level=1] [ref=e36]
+          - generic [ref=e37]: v2.7.0
+        - generic [ref=e38]: 506 members · 581 photos
+      - generic [ref=e39]:
+        - generic [ref=e40]: Welcome, Local Admin
+        - button "Feedback" [ref=e41] [cursor=pointer]
+        - button "Admin" [ref=e42] [cursor=pointer]
+        - button "Sign Out" [ref=e43] [cursor=pointer]
+  - main [ref=e44]:
+    - generic [ref=e45]:
+      - heading "Search the Archive" [level=2] [ref=e46]
+      - generic [ref=e47]:
+        - textbox "Search by name, year, or place…" [ref=e48]
+        - button "Search" [ref=e49] [cursor=pointer]
+    - generic [ref=e50]:
+      - heading "Explore" [level=2] [ref=e51]
+      - generic [ref=e52]:
+        - button "Browse by Surname Explore family names organized alphabetically" [ref=e53] [cursor=pointer]:
+          - img [ref=e54]
+          - generic [ref=e57]:
+            - generic [ref=e58]: Browse by Surname
+            - generic [ref=e59]: Explore family names organized alphabetically
+          - img [ref=e60]
+        - button "Photo Gallery Browse historic and contemporary family photographs" [ref=e62] [cursor=pointer]:
+          - img [ref=e63]
+          - generic [ref=e66]:
+            - generic [ref=e67]: Photo Gallery
+            - generic [ref=e68]: Browse historic and contemporary family photographs
+          - img [ref=e69]
+        - button "Cited Sources Browse records, citations, and plain-language research context" [ref=e71] [cursor=pointer]:
+          - img [ref=e72]
+          - generic [ref=e77]:
+            - generic [ref=e78]: Cited Sources
+            - generic [ref=e79]: Browse records, citations, and plain-language research context
+          - img [ref=e80]
+        - button "Place Pages Explore recurring towns, counties, records, and research leads" [ref=e82] [cursor=pointer]:
+          - img [ref=e83]
+          - generic [ref=e86]:
+            - generic [ref=e87]: Place Pages
+            - generic [ref=e88]: Explore recurring towns, counties, records, and research leads
+          - img [ref=e89]
+        - button "Family Tree Explore the connected family tree rooted in the living generation" [ref=e91] [cursor=pointer]:
+          - img [ref=e92]
+          - generic [ref=e97]:
+            - generic [ref=e98]: Family Tree
+            - generic [ref=e99]: Explore the connected family tree rooted in the living generation
+          - img [ref=e100]
+        - button "Family Analytics Explore statistics and patterns across the family archive" [ref=e102] [cursor=pointer]:
+          - img [ref=e103]
+          - generic [ref=e107]:
+            - generic [ref=e108]: Family Analytics
+            - generic [ref=e109]: Explore statistics and patterns across the family archive
+          - img [ref=e110]
+        - button "Research Library Understand what each record type means and where to dig deeper" [active] [ref=e112] [cursor=pointer]:
+          - img [ref=e113]
+          - generic [ref=e118]:
+            - generic [ref=e119]: Research Library
+            - generic [ref=e120]: Understand what each record type means and where to dig deeper
+          - img [ref=e121]
+    - generic [ref=e123]:
+      - generic [ref=e124]:
+        - button "← Back" [ref=e125] [cursor=pointer]
+        - heading "Research Library" [level=2] [ref=e126]
+      - generic [ref=e127]:
+        - generic [ref=e128]:
+          - heading "Research Workbench" [level=3] [ref=e129]
+          - paragraph [ref=e130]: Find relatives with missing dates, places, or source-backed evidence. Choose a person, review known facts, follow source leads, then send a citation-backed suggestion to the admin.
+          - generic [ref=e131]:
+            - generic [ref=e132]:
+              - generic [ref=e133]: "502"
+              - generic [ref=e134]: People needing research
+            - generic [ref=e135]:
+              - generic [ref=e136]: "219"
+              - generic [ref=e137]: Missing dates
+            - generic [ref=e138]:
+              - generic [ref=e139]: "807"
+              - generic [ref=e140]: Missing places
+            - generic [ref=e141]:
+              - generic [ref=e142]: "469"
+              - generic [ref=e143]: Uncited profiles
+          - generic [ref=e145]:
+            - generic [ref=e146]: Find a person or missing fact
+            - searchbox "Find a person or missing fact" [ref=e147]
+          - generic [ref=e148]:
+            - generic [ref=e149]:
+              - button "Alexander Gardner 0 linked sources Birth date Birth place Death date Death place" [ref=e150] [cursor=pointer]:
+                - generic [ref=e151]: Alexander Gardner
+                - generic [ref=e152]: 0 linked sources
+                - generic [ref=e153]:
+                  - generic [ref=e154]: Birth date
+                  - generic [ref=e155]: Birth place
+                  - generic [ref=e156]: Death date
+                  - generic [ref=e157]: Death place
+              - button "Alice Fuller 0 linked sources Birth date Birth place Death date Death place" [ref=e158] [cursor=pointer]:
+                - generic [ref=e159]: Alice Fuller
+                - generic [ref=e160]: 0 linked sources
+                - generic [ref=e161]:
+                  - generic [ref=e162]: Birth date
+                  - generic [ref=e163]: Birth place
+                  - generic [ref=e164]: Death date
+                  - generic [ref=e165]: Death place
+              - button "Allan Fuhr 0 linked sources Birth date Birth place Death date Death place" [ref=e166] [cursor=pointer]:
+                - generic [ref=e167]: Allan Fuhr
+                - generic [ref=e168]: 0 linked sources
+                - generic [ref=e169]:
+                  - generic [ref=e170]: Birth date
+                  - generic [ref=e171]: Birth place
+                  - generic [ref=e172]: Death date
+                  - generic [ref=e173]: Death place
+              - button "Andrew Matson 0 linked sources Birth date Birth place Death date Death place" [ref=e174] [cursor=pointer]:
+                - generic [ref=e175]: Andrew Matson
+                - generic [ref=e176]: 0 linked sources
+                - generic [ref=e177]:
+                  - generic [ref=e178]: Birth date
+                  - generic [ref=e179]: Birth place
+                  - generic [ref=e180]: Death date
+                  - generic [ref=e181]: Death place
+              - button "Anita Delp 0 linked sources Birth date Birth place Death date Death place" [ref=e182] [cursor=pointer]:
+                - generic [ref=e183]: Anita Delp
+                - generic [ref=e184]: 0 linked sources
+                - generic [ref=e185]:
+                  - generic [ref=e186]: Birth date
+                  - generic [ref=e187]: Birth place
+                  - generic [ref=e188]: Death date
+                  - generic [ref=e189]: Death place
+              - button "Baby Boy Mardis 0 linked sources Birth date Birth place Death date Death place" [ref=e190] [cursor=pointer]:
+                - generic [ref=e191]: Baby Boy Mardis
+                - generic [ref=e192]: 0 linked sources
+                - generic [ref=e193]:
+                  - generic [ref=e194]: Birth date
+                  - generic [ref=e195]: Birth place
+                  - generic [ref=e196]: Death date
+                  - generic [ref=e197]: Death place
+              - button "Baby Boy Schnell 0 linked sources Birth date Birth place Death date Death place" [ref=e198] [cursor=pointer]:
+                - generic [ref=e199]: Baby Boy Schnell
+                - generic [ref=e200]: 0 linked sources
+                - generic [ref=e201]:
+                  - generic [ref=e202]: Birth date
+                  - generic [ref=e203]: Birth place
+                  - generic [ref=e204]: Death date
+                  - generic [ref=e205]: Death place
+              - button "Bert C. Mummert 0 linked sources Birth date Birth place Death date Death place" [ref=e206] [cursor=pointer]:
+                - generic [ref=e207]: Bert C. Mummert
+                - generic [ref=e208]: 0 linked sources
+                - generic [ref=e209]:
+                  - generic [ref=e210]: Birth date
+                  - generic [ref=e211]: Birth place
+                  - generic [ref=e212]: Death date
+                  - generic [ref=e213]: Death place
+              - button "Betty Pike 0 linked sources Birth date Birth place Death date Death place" [ref=e214] [cursor=pointer]:
+                - generic [ref=e215]: Betty Pike
+                - generic [ref=e216]: 0 linked sources
+                - generic [ref=e217]:
+                  - generic [ref=e218]: Birth date
+                  - generic [ref=e219]: Birth place
+                  - generic [ref=e220]: Death date
+                  - generic [ref=e221]: Death place
+              - button "Calvin Vanatta 0 linked sources Birth date Birth place Death date Death place" [ref=e222] [cursor=pointer]:
+                - generic [ref=e223]: Calvin Vanatta
+                - generic [ref=e224]: 0 linked sources
+                - generic [ref=e225]:
+                  - generic [ref=e226]: Birth date
+                  - generic [ref=e227]: Birth place
+                  - generic [ref=e228]: Death date
+                  - generic [ref=e229]: Death place
+              - button "Carson Tyler 0 linked sources Birth date Birth place Death date Death place" [ref=e230] [cursor=pointer]:
+                - generic [ref=e231]: Carson Tyler
+                - generic [ref=e232]: 0 linked sources
+                - generic [ref=e233]:
+                  - generic [ref=e234]: Birth date
+                  - generic [ref=e235]: Birth place
+                  - generic [ref=e236]: Death date
+                  - generic [ref=e237]: Death place
+              - button "Carter Mardis II 0 linked sources Birth date Birth place Death date Death place" [ref=e238] [cursor=pointer]:
+                - generic [ref=e239]: Carter Mardis II
+                - generic [ref=e240]: 0 linked sources
+                - generic [ref=e241]:
+                  - generic [ref=e242]: Birth date
+                  - generic [ref=e243]: Birth place
+                  - generic [ref=e244]: Death date
+                  - generic [ref=e245]: Death place
+              - button "Cornelius Swartout 0 linked sources Birth date Birth place Death date Death place" [ref=e246] [cursor=pointer]:
+                - generic [ref=e247]: Cornelius Swartout
+                - generic [ref=e248]: 0 linked sources
+                - generic [ref=e249]:
+                  - generic [ref=e250]: Birth date
+                  - generic [ref=e251]: Birth place
+                  - generic [ref=e252]: Death date
+                  - generic [ref=e253]: Death place
+              - button "Donald Berry 0 linked sources Birth date Birth place Death date Death place" [ref=e254] [cursor=pointer]:
+                - generic [ref=e255]: Donald Berry
+                - generic [ref=e256]: 0 linked sources
+                - generic [ref=e257]:
+                  - generic [ref=e258]: Birth date
+                  - generic [ref=e259]: Birth place
+                  - generic [ref=e260]: Death date
+                  - generic [ref=e261]: Death place
+              - button "Elinor 0 linked sources Birth date Birth place Death date Death place" [ref=e262] [cursor=pointer]:
+                - generic [ref=e263]: Elinor
+                - generic [ref=e264]: 0 linked sources
+                - generic [ref=e265]:
+                  - generic [ref=e266]: Birth date
+                  - generic [ref=e267]: Birth place
+                  - generic [ref=e268]: Death date
+                  - generic [ref=e269]: Death place
+              - button "Elvira Debord 0 linked sources Birth date Birth place Death date Death place" [ref=e270] [cursor=pointer]:
+                - generic [ref=e271]: Elvira Debord
+                - generic [ref=e272]: 0 linked sources
+                - generic [ref=e273]:
+                  - generic [ref=e274]: Birth date
+                  - generic [ref=e275]: Birth place
+                  - generic [ref=e276]: Death date
+                  - generic [ref=e277]: Death place
+              - button "Eugene Shepard 0 linked sources Birth date Birth place Death date Death place" [ref=e278] [cursor=pointer]:
+                - generic [ref=e279]: Eugene Shepard
+                - generic [ref=e280]: 0 linked sources
+                - generic [ref=e281]:
+                  - generic [ref=e282]: Birth date
+                  - generic [ref=e283]: Birth place
+                  - generic [ref=e284]: Death date
+                  - generic [ref=e285]: Death place
+              - button "Eugene Shepard 0 linked sources Birth date Birth place Death date Death place" [ref=e286] [cursor=pointer]:
+                - generic [ref=e287]: Eugene Shepard
+                - generic [ref=e288]: 0 linked sources
+                - generic [ref=e289]:
+                  - generic [ref=e290]: Birth date
+                  - generic [ref=e291]: Birth place
+                  - generic [ref=e292]: Death date
+                  - generic [ref=e293]: Death place
+              - button "Florence Welsh 0 linked sources Birth date Birth place Death date Death place" [ref=e294] [cursor=pointer]:
+                - generic [ref=e295]: Florence Welsh
+                - generic [ref=e296]: 0 linked sources
+                - generic [ref=e297]:
+                  - generic [ref=e298]: Birth date
+                  - generic [ref=e299]: Birth place
+                  - generic [ref=e300]: Death date
+                  - generic [ref=e301]: Death place
+              - button "Fred Tyler 0 linked sources Birth date Birth place Death date Death place" [ref=e302] [cursor=pointer]:
+                - generic [ref=e303]: Fred Tyler
+                - generic [ref=e304]: 0 linked sources
+                - generic [ref=e305]:
+                  - generic [ref=e306]: Birth date
+                  - generic [ref=e307]: Birth place
+                  - generic [ref=e308]: Death date
+                  - generic [ref=e309]: Death place
+              - button "Fredrich Debord 0 linked sources Birth date Birth place Death date Death place" [ref=e310] [cursor=pointer]:
+                - generic [ref=e311]: Fredrich Debord
+                - generic [ref=e312]: 0 linked sources
+                - generic [ref=e313]:
+                  - generic [ref=e314]: Birth date
+                  - generic [ref=e315]: Birth place
+                  - generic [ref=e316]: Death date
+                  - generic [ref=e317]: Death place
+              - button "Harry Wolfe 0 linked sources Birth date Birth place Death date Death place" [ref=e318] [cursor=pointer]:
+                - generic [ref=e319]: Harry Wolfe
+                - generic [ref=e320]: 0 linked sources
+                - generic [ref=e321]:
+                  - generic [ref=e322]: Birth date
+                  - generic [ref=e323]: Birth place
+                  - generic [ref=e324]: Death date
+                  - generic [ref=e325]: Death place
+              - button "Jackson Wathen 0 linked sources Birth date Birth place Death date Death place" [ref=e326] [cursor=pointer]:
+                - generic [ref=e327]: Jackson Wathen
+                - generic [ref=e328]: 0 linked sources
+                - generic [ref=e329]:
+                  - generic [ref=e330]: Birth date
+                  - generic [ref=e331]: Birth place
+                  - generic [ref=e332]: Death date
+                  - generic [ref=e333]: Death place
+              - button "John K. Tyler 0 linked sources Birth date Birth place Death date Death place" [ref=e334] [cursor=pointer]:
+                - generic [ref=e335]: John K. Tyler
+                - generic [ref=e336]: 0 linked sources
+                - generic [ref=e337]:
+                  - generic [ref=e338]: Birth date
+                  - generic [ref=e339]: Birth place
+                  - generic [ref=e340]: Death date
+                  - generic [ref=e341]: Death place
+              - button "John Peterson 0 linked sources Birth date Birth place Death date Death place" [ref=e342] [cursor=pointer]:
+                - generic [ref=e343]: John Peterson
+                - generic [ref=e344]: 0 linked sources
+                - generic [ref=e345]:
+                  - generic [ref=e346]: Birth date
+                  - generic [ref=e347]: Birth place
+                  - generic [ref=e348]: Death date
+                  - generic [ref=e349]: Death place
+              - button "John Swartout 0 linked sources Birth date Birth place Death date Death place" [ref=e350] [cursor=pointer]:
+                - generic [ref=e351]: John Swartout
+                - generic [ref=e352]: 0 linked sources
+                - generic [ref=e353]:
+                  - generic [ref=e354]: Birth date
+                  - generic [ref=e355]: Birth place
+                  - generic [ref=e356]: Death date
+                  - generic [ref=e357]: Death place
+              - button "Joseph Henry Mills 0 linked sources Birth date Birth place Death date Death place" [ref=e358] [cursor=pointer]:
+                - generic [ref=e359]: Joseph Henry Mills
+                - generic [ref=e360]: 0 linked sources
+                - generic [ref=e361]:
+                  - generic [ref=e362]: Birth date
+                  - generic [ref=e363]: Birth place
+                  - generic [ref=e364]: Death date
+                  - generic [ref=e365]: Death place
+              - button "Keith Tyler 0 linked sources Birth date Birth place Death date Death place" [ref=e366] [cursor=pointer]:
+                - generic [ref=e367]: Keith Tyler
+                - generic [ref=e368]: 0 linked sources
+                - generic [ref=e369]:
+                  - generic [ref=e370]: Birth date
+                  - generic [ref=e371]: Birth place
+                  - generic [ref=e372]: Death date
+                  - generic [ref=e373]: Death place
+              - button "Laverna Stromquist 0 linked sources Birth date Birth place Death date Death place" [ref=e374] [cursor=pointer]:
+                - generic [ref=e375]: Laverna Stromquist
+                - generic [ref=e376]: 0 linked sources
+                - generic [ref=e377]:
+                  - generic [ref=e378]: Birth date
+                  - generic [ref=e379]: Birth place
+                  - generic [ref=e380]: Death date
+                  - generic [ref=e381]: Death place
+              - button "Lehman Bording Kellett 0 linked sources Birth date Birth place Death date Death place" [ref=e382] [cursor=pointer]:
+                - generic [ref=e383]: Lehman Bording Kellett
+                - generic [ref=e384]: 0 linked sources
+                - generic [ref=e385]:
+                  - generic [ref=e386]: Birth date
+                  - generic [ref=e387]: Birth place
+                  - generic [ref=e388]: Death date
+                  - generic [ref=e389]: Death place
+              - button "Lorene Johnson 0 linked sources Birth date Birth place Death date Death place" [ref=e390] [cursor=pointer]:
+                - generic [ref=e391]: Lorene Johnson
+                - generic [ref=e392]: 0 linked sources
+                - generic [ref=e393]:
+                  - generic [ref=e394]: Birth date
+                  - generic [ref=e395]: Birth place
+                  - generic [ref=e396]: Death date
+                  - generic [ref=e397]: Death place
+              - button "Lucinda Platt 0 linked sources Birth date Birth place Death date Death place" [ref=e398] [cursor=pointer]:
+                - generic [ref=e399]: Lucinda Platt
+                - generic [ref=e400]: 0 linked sources
+                - generic [ref=e401]:
+                  - generic [ref=e402]: Birth date
+                  - generic [ref=e403]: Birth place
+                  - generic [ref=e404]: Death date
+                  - generic [ref=e405]: Death place
+              - button "Luke Musselman 0 linked sources Birth date Birth place Death date Death place" [ref=e406] [cursor=pointer]:
+                - generic [ref=e407]: Luke Musselman
+                - generic [ref=e408]: 0 linked sources
+                - generic [ref=e409]:
+                  - generic [ref=e410]: Birth date
+                  - generic [ref=e411]: Birth place
+                  - generic [ref=e412]: Death date
+                  - generic [ref=e413]: Death place
+              - button "Margaret McVickers Durham 0 linked sources Birth date Birth place Death date Death place" [ref=e414] [cursor=pointer]:
+                - generic [ref=e415]: Margaret McVickers Durham
+                - generic [ref=e416]: 0 linked sources
+                - generic [ref=e417]:
+                  - generic [ref=e418]: Birth date
+                  - generic [ref=e419]: Birth place
+                  - generic [ref=e420]: Death date
+                  - generic [ref=e421]: Death place
+              - button "Margaret Wait 0 linked sources Birth date Birth place Death date Death place" [ref=e422] [cursor=pointer]:
+                - generic [ref=e423]: Margaret Wait
+                - generic [ref=e424]: 0 linked sources
+                - generic [ref=e425]:
+                  - generic [ref=e426]: Birth date
+                  - generic [ref=e427]: Birth place
+                  - generic [ref=e428]: Death date
+                  - generic [ref=e429]: Death place
+              - button "Mary Donahoo 0 linked sources Birth date Birth place Death date Death place" [ref=e430] [cursor=pointer]:
+                - generic [ref=e431]: Mary Donahoo
+                - generic [ref=e432]: 0 linked sources
+                - generic [ref=e433]:
+                  - generic [ref=e434]: Birth date
+                  - generic [ref=e435]: Birth place
+                  - generic [ref=e436]: Death date
+                  - generic [ref=e437]: Death place
+              - button "Mary Owens 0 linked sources Birth date Birth place Death date Death place" [ref=e438] [cursor=pointer]:
+                - generic [ref=e439]: Mary Owens
+                - generic [ref=e440]: 0 linked sources
+                - generic [ref=e441]:
+                  - generic [ref=e442]: Birth date
+                  - generic [ref=e443]: Birth place
+                  - generic [ref=e444]: Death date
+                  - generic [ref=e445]: Death place
+              - button "Mary R. Curry 0 linked sources Birth date Birth place Death date Death place" [ref=e446] [cursor=pointer]:
+                - generic [ref=e447]: Mary R. Curry
+                - generic [ref=e448]: 0 linked sources
+                - generic [ref=e449]:
+                  - generic [ref=e450]: Birth date
+                  - generic [ref=e451]: Birth place
+                  - generic [ref=e452]: Death date
+                  - generic [ref=e453]: Death place
+              - button "Mary Tyler 0 linked sources Birth date Birth place Death date Death place" [ref=e454] [cursor=pointer]:
+                - generic [ref=e455]: Mary Tyler
+                - generic [ref=e456]: 0 linked sources
+                - generic [ref=e457]:
+                  - generic [ref=e458]: Birth date
+                  - generic [ref=e459]: Birth place
+                  - generic [ref=e460]: Death date
+                  - generic [ref=e461]: Death place
+              - button "Maude Swartout 0 linked sources Birth date Birth place Death date Death place" [ref=e462] [cursor=pointer]:
+                - generic [ref=e463]: Maude Swartout
+                - generic [ref=e464]: 0 linked sources
+                - generic [ref=e465]:
+                  - generic [ref=e466]: Birth date
+                  - generic [ref=e467]: Birth place
+                  - generic [ref=e468]: Death date
+                  - generic [ref=e469]: Death place
+              - button "Myrtle (step-daughter) 0 linked sources Birth date Birth place Death date Death place" [ref=e470] [cursor=pointer]:
+                - generic [ref=e471]: Myrtle (step-daughter)
+                - generic [ref=e472]: 0 linked sources
+                - generic [ref=e473]:
+                  - generic [ref=e474]: Birth date
+                  - generic [ref=e475]: Birth place
+                  - generic [ref=e476]: Death date
+                  - generic [ref=e477]: Death place
+              - button "Petronella Halberg 0 linked sources Birth date Birth place Death date Death place" [ref=e478] [cursor=pointer]:
+                - generic [ref=e479]: Petronella Halberg
+                - generic [ref=e480]: 0 linked sources
+                - generic [ref=e481]:
+                  - generic [ref=e482]: Birth date
+                  - generic [ref=e483]: Birth place
+                  - generic [ref=e484]: Death date
+                  - generic [ref=e485]: Death place
+              - button "Ray Brown 0 linked sources Birth date Birth place Death date Death place" [ref=e486] [cursor=pointer]:
+                - generic [ref=e487]: Ray Brown
+                - generic [ref=e488]: 0 linked sources
+                - generic [ref=e489]:
+                  - generic [ref=e490]: Birth date
+                  - generic [ref=e491]: Birth place
+                  - generic [ref=e492]: Death date
+                  - generic [ref=e493]: Death place
+              - button "Russel A. Hofer 0 linked sources Birth date Birth place Death date Death place" [ref=e494] [cursor=pointer]:
+                - generic [ref=e495]: Russel A. Hofer
+                - generic [ref=e496]: 0 linked sources
+                - generic [ref=e497]:
+                  - generic [ref=e498]: Birth date
+                  - generic [ref=e499]: Birth place
+                  - generic [ref=e500]: Death date
+                  - generic [ref=e501]: Death place
+              - button "Ruth Jeanette Veldhuizen 0 linked sources Birth date Birth place Death date Death place" [ref=e502] [cursor=pointer]:
+                - generic [ref=e503]: Ruth Jeanette Veldhuizen
+                - generic [ref=e504]: 0 linked sources
+                - generic [ref=e505]:
+                  - generic [ref=e506]: Birth date
+                  - generic [ref=e507]: Birth place
+                  - generic [ref=e508]: Death date
+                  - generic [ref=e509]: Death place
+              - button "Sylvia (step-daughter) 0 linked sources Birth date Birth place Death date Death place" [ref=e510] [cursor=pointer]:
+                - generic [ref=e511]: Sylvia (step-daughter)
+                - generic [ref=e512]: 0 linked sources
+                - generic [ref=e513]:
+                  - generic [ref=e514]: Birth date
+                  - generic [ref=e515]: Birth place
+                  - generic [ref=e516]: Death date
+                  - generic [ref=e517]: Death place
+              - button "Thomas Grundy 0 linked sources Birth date Birth place Death date Death place" [ref=e518] [cursor=pointer]:
+                - generic [ref=e519]: Thomas Grundy
+                - generic [ref=e520]: 0 linked sources
+                - generic [ref=e521]:
+                  - generic [ref=e522]: Birth date
+                  - generic [ref=e523]: Birth place
+                  - generic [ref=e524]: Death date
+                  - generic [ref=e525]: Death place
+              - button "Tim Tyler 0 linked sources Birth date Birth place Death date Death place" [ref=e526] [cursor=pointer]:
+                - generic [ref=e527]: Tim Tyler
+                - generic [ref=e528]: 0 linked sources
+                - generic [ref=e529]:
+                  - generic [ref=e530]: Birth date
+                  - generic [ref=e531]: Birth place
+                  - generic [ref=e532]: Death date
+                  - generic [ref=e533]: Death place
+              - button "Tom Tyler 0 linked sources Birth date Birth place Death date Death place" [ref=e534] [cursor=pointer]:
+                - generic [ref=e535]: Tom Tyler
+                - generic [ref=e536]: 0 linked sources
+                - generic [ref=e537]:
+                  - generic [ref=e538]: Birth date
+                  - generic [ref=e539]: Birth place
+                  - generic [ref=e540]: Death date
+                  - generic [ref=e541]: Death place
+              - button "Virginia Madge Carpenter 0 linked sources Birth date Birth place Death date Death place" [ref=e542] [cursor=pointer]:
+                - generic [ref=e543]: Virginia Madge Carpenter
+                - generic [ref=e544]: 0 linked sources
+                - generic [ref=e545]:
+                  - generic [ref=e546]: Birth date
+                  - generic [ref=e547]: Birth place
+                  - generic [ref=e548]: Death date
+                  - generic [ref=e549]: Death place
+              - button "Walter Bennett 0 linked sources Birth date Birth place Death date Death place" [ref=e550] [cursor=pointer]:
+                - generic [ref=e551]: Walter Bennett
+                - generic [ref=e552]: 0 linked sources
+                - generic [ref=e553]:
+                  - generic [ref=e554]: Birth date
+                  - generic [ref=e555]: Birth place
+                  - generic [ref=e556]: Death date
+                  - generic [ref=e557]: Death place
+              - button "William B. O'Brien 0 linked sources Birth date Birth place Death date Death place" [ref=e558] [cursor=pointer]:
+                - generic [ref=e559]: William B. O'Brien
+                - generic [ref=e560]: 0 linked sources
+                - generic [ref=e561]:
+                  - generic [ref=e562]: Birth date
+                  - generic [ref=e563]: Birth place
+                  - generic [ref=e564]: Death date
+                  - generic [ref=e565]: Death place
+              - button "William Burl Roudybush 0 linked sources Birth date Birth place Death date Death place" [ref=e566] [cursor=pointer]:
+                - generic [ref=e567]: William Burl Roudybush
+                - generic [ref=e568]: 0 linked sources
+                - generic [ref=e569]:
+                  - generic [ref=e570]: Birth date
+                  - generic [ref=e571]: Birth place
+                  - generic [ref=e572]: Death date
+                  - generic [ref=e573]: Death place
+              - button "Clara Caroline Spong -1922 · 0 linked sources Birth date Birth place Death place Burial place" [ref=e574] [cursor=pointer]:
+                - generic [ref=e575]: Clara Caroline Spong
+                - generic [ref=e576]: "-1922 · 0 linked sources"
+                - generic [ref=e577]:
+                  - generic [ref=e578]: Birth date
+                  - generic [ref=e579]: Birth place
+                  - generic [ref=e580]: Death place
+                  - generic [ref=e581]: Burial place
+              - button "Elisa Poitras -1850 · 0 linked sources Birth date Birth place Death place Burial place" [ref=e582] [cursor=pointer]:
+                - generic [ref=e583]: Elisa Poitras
+                - generic [ref=e584]: "-1850 · 0 linked sources"
+                - generic [ref=e585]:
+                  - generic [ref=e586]: Birth date
+                  - generic [ref=e587]: Birth place
+                  - generic [ref=e588]: Death place
+                  - generic [ref=e589]: Burial place
+              - button "Elizabeth Ann Marie Wolf Ericsson 1947-? · 0 linked sources Birth place Death date Death place Burial place" [ref=e590] [cursor=pointer]:
+                - generic [ref=e591]: Elizabeth Ann Marie Wolf Ericsson
+                - generic [ref=e592]: 1947-? · 0 linked sources
+                - generic [ref=e593]:
+                  - generic [ref=e594]: Birth place
+                  - generic [ref=e595]: Death date
+                  - generic [ref=e596]: Death place
+                  - generic [ref=e597]: Burial place
+              - button "Elizabeth L. Jung Rickert 1937-? · 0 linked sources Birth place Death date Death place Burial place" [ref=e598] [cursor=pointer]:
+                - generic [ref=e599]: Elizabeth L. Jung Rickert
+                - generic [ref=e600]: 1937-? · 0 linked sources
+                - generic [ref=e601]:
+                  - generic [ref=e602]: Birth place
+                  - generic [ref=e603]: Death date
+                  - generic [ref=e604]: Death place
+                  - generic [ref=e605]: Burial place
+              - button "Henrietta 0 linked sources Birth date Birth place Death date Burial place" [ref=e606] [cursor=pointer]:
+                - generic [ref=e607]: Henrietta
+                - generic [ref=e608]: 0 linked sources
+                - generic [ref=e609]:
+                  - generic [ref=e610]: Birth date
+                  - generic [ref=e611]: Birth place
+                  - generic [ref=e612]: Death date
+                  - generic [ref=e613]: Burial place
+              - button "Katharina Jung 1924-? · 0 linked sources Birth place Death date Death place Burial place" [ref=e614] [cursor=pointer]:
+                - generic [ref=e615]: Katharina Jung
+                - generic [ref=e616]: 1924-? · 0 linked sources
+                - generic [ref=e617]:
+                  - generic [ref=e618]: Birth place
+                  - generic [ref=e619]: Death date
+                  - generic [ref=e620]: Death place
+                  - generic [ref=e621]: Burial place
+              - button "Lincoln William Massey 1970- · 0 linked sources Birth place Death date Death place Burial place" [ref=e622] [cursor=pointer]:
+                - generic [ref=e623]: Lincoln William Massey
+                - generic [ref=e624]: 1970- · 0 linked sources
+                - generic [ref=e625]:
+                  - generic [ref=e626]: Birth place
+                  - generic [ref=e627]: Death date
+                  - generic [ref=e628]: Death place
+                  - generic [ref=e629]: Burial place
+              - button "Louisa Grundy 1914- · 0 linked sources Birth place Death date Death place Burial place" [ref=e630] [cursor=pointer]:
+                - generic [ref=e631]: Louisa Grundy
+                - generic [ref=e632]: 1914- · 0 linked sources
+                - generic [ref=e633]:
+                  - generic [ref=e634]: Birth place
+                  - generic [ref=e635]: Death date
+                  - generic [ref=e636]: Death place
+                  - generic [ref=e637]: Burial place
+              - button "Lula Ellen Snell 1886- · 0 linked sources Birth place Death date Death place Burial place" [ref=e638] [cursor=pointer]:
+                - generic [ref=e639]: Lula Ellen Snell
+                - generic [ref=e640]: 1886- · 0 linked sources
+                - generic [ref=e641]:
+                  - generic [ref=e642]: Birth place
+                  - generic [ref=e643]: Death date
+                  - generic [ref=e644]: Death place
+                  - generic [ref=e645]: Burial place
+              - button "Marguerite Thomas 1911- · 0 linked sources Birth place Death date Death place Burial place" [ref=e646] [cursor=pointer]:
+                - generic [ref=e647]: Marguerite Thomas
+                - generic [ref=e648]: 1911- · 0 linked sources
+                - generic [ref=e649]:
+                  - generic [ref=e650]: Birth place
+                  - generic [ref=e651]: Death date
+                  - generic [ref=e652]: Death place
+                  - generic [ref=e653]: Burial place
+              - button "Marion White -1998 · 0 linked sources Birth date Birth place Death place Burial place" [ref=e654] [cursor=pointer]:
+                - generic [ref=e655]: Marion White
+                - generic [ref=e656]: "-1998 · 0 linked sources"
+                - generic [ref=e657]:
+                  - generic [ref=e658]: Birth date
+                  - generic [ref=e659]: Birth place
+                  - generic [ref=e660]: Death place
+                  - generic [ref=e661]: Burial place
+              - button "Marvin Wolf 1942-? · 0 linked sources Birth place Death date Death place Burial place" [ref=e662] [cursor=pointer]:
+                - generic [ref=e663]: Marvin Wolf
+                - generic [ref=e664]: 1942-? · 0 linked sources
+                - generic [ref=e665]:
+                  - generic [ref=e666]: Birth place
+                  - generic [ref=e667]: Death date
+                  - generic [ref=e668]: Death place
+                  - generic [ref=e669]: Burial place
+              - button "Peter August Jung 1932-? · 0 linked sources Birth place Death date Death place Burial place" [ref=e670] [cursor=pointer]:
+                - generic [ref=e671]: Peter August Jung
+                - generic [ref=e672]: 1932-? · 0 linked sources
+                - generic [ref=e673]:
+                  - generic [ref=e674]: Birth place
+                  - generic [ref=e675]: Death date
+                  - generic [ref=e676]: Death place
+                  - generic [ref=e677]: Burial place
+              - button "Raymond Lewis Allen 1917- · 0 linked sources Birth place Death date Death place Burial place" [ref=e678] [cursor=pointer]:
+                - generic [ref=e679]: Raymond Lewis Allen
+                - generic [ref=e680]: 1917- · 0 linked sources
+                - generic [ref=e681]:
+                  - generic [ref=e682]: Birth place
+                  - generic [ref=e683]: Death date
+                  - generic [ref=e684]: Death place
+                  - generic [ref=e685]: Burial place
+              - button "Richard Fuhr -1939 · 0 linked sources Birth date Birth place Death place Burial place" [ref=e686] [cursor=pointer]:
+                - generic [ref=e687]: Richard Fuhr
+                - generic [ref=e688]: "-1939 · 0 linked sources"
+                - generic [ref=e689]:
+                  - generic [ref=e690]: Birth date
+                  - generic [ref=e691]: Birth place
+                  - generic [ref=e692]: Death place
+                  - generic [ref=e693]: Burial place
+              - button "Richard Lincoln Wolf 1928-? · 0 linked sources Birth place Death date Death place Burial place" [ref=e694] [cursor=pointer]:
+                - generic [ref=e695]: Richard Lincoln Wolf
+                - generic [ref=e696]: 1928-? · 0 linked sources
+                - generic [ref=e697]:
+                  - generic [ref=e698]: Birth place
+                  - generic [ref=e699]: Death date
+                  - generic [ref=e700]: Death place
+                  - generic [ref=e701]: Burial place
+              - button "Roger Arthur Wolf 1945-? · 0 linked sources Birth place Death date Death place Burial place" [ref=e702] [cursor=pointer]:
+                - generic [ref=e703]: Roger Arthur Wolf
+                - generic [ref=e704]: 1945-? · 0 linked sources
+                - generic [ref=e705]:
+                  - generic [ref=e706]: Birth place
+                  - generic [ref=e707]: Death date
+                  - generic [ref=e708]: Death place
+                  - generic [ref=e709]: Burial place
+              - button "Steve Brown 1951- · 0 linked sources Birth place Death date Death place Burial place" [ref=e710] [cursor=pointer]:
+                - generic [ref=e711]: Steve Brown
+                - generic [ref=e712]: 1951- · 0 linked sources
+                - generic [ref=e713]:
+                  - generic [ref=e714]: Birth place
+                  - generic [ref=e715]: Death date
+                  - generic [ref=e716]: Death place
+                  - generic [ref=e717]: Burial place
+              - button "William C. Thomas 1909- · 0 linked sources Birth place Death date Death place Burial place" [ref=e718] [cursor=pointer]:
+                - generic [ref=e719]: William C. Thomas
+                - generic [ref=e720]: 1909- · 0 linked sources
+                - generic [ref=e721]:
+                  - generic [ref=e722]: Birth place
+                  - generic [ref=e723]: Death date
+                  - generic [ref=e724]: Death place
+                  - generic [ref=e725]: Burial place
+              - button "William J. Jung 1929-? · 0 linked sources Birth place Death date Death place Burial place" [ref=e726] [cursor=pointer]:
+                - generic [ref=e727]: William J. Jung
+                - generic [ref=e728]: 1929-? · 0 linked sources
+                - generic [ref=e729]:
+                  - generic [ref=e730]: Birth place
+                  - generic [ref=e731]: Death date
+                  - generic [ref=e732]: Death place
+                  - generic [ref=e733]: Burial place
+              - button "William Seidler 0 linked sources Birth date Birth place Death date Burial place" [ref=e734] [cursor=pointer]:
+                - generic [ref=e735]: William Seidler
+                - generic [ref=e736]: 0 linked sources
+                - generic [ref=e737]:
+                  - generic [ref=e738]: Birth date
+                  - generic [ref=e739]: Birth place
+                  - generic [ref=e740]: Death date
+                  - generic [ref=e741]: Burial place
+              - button "Alexandre Bourdon 0 linked sources Death date Death place Burial place Source-backed evidence" [ref=e742] [cursor=pointer]:
+                - generic [ref=e743]: Alexandre Bourdon
+                - generic [ref=e744]: 0 linked sources
+                - generic [ref=e745]:
+                  - generic [ref=e746]: Death date
+                  - generic [ref=e747]: Death place
+                  - generic [ref=e748]: Burial place
+                  - generic [ref=e749]: Source-backed evidence
+              - button "Alice M. Heele 1928- · 0 linked sources Birth place Death date Burial place Source-backed evidence" [ref=e750] [cursor=pointer]:
+                - generic [ref=e751]: Alice M. Heele
+                - generic [ref=e752]: 1928- · 0 linked sources
+                - generic [ref=e753]:
+                  - generic [ref=e754]: Birth place
+                  - generic [ref=e755]: Death date
+                  - generic [ref=e756]: Burial place
+                  - generic [ref=e757]: Source-backed evidence
+              - button "Amable Narcisse Bourdon 0 linked sources Death date Death place Burial place Source-backed evidence" [ref=e758] [cursor=pointer]:
+                - generic [ref=e759]: Amable Narcisse Bourdon
+                - generic [ref=e760]: 0 linked sources
+                - generic [ref=e761]:
+                  - generic [ref=e762]: Death date
+                  - generic [ref=e763]: Death place
+                  - generic [ref=e764]: Burial place
+                  - generic [ref=e765]: Source-backed evidence
+              - button "Berniece Shepard 1906- · 0 linked sources Death date Death place Burial place Source-backed evidence" [ref=e766] [cursor=pointer]:
+                - generic [ref=e767]: Berniece Shepard
+                - generic [ref=e768]: 1906- · 0 linked sources
+                - generic [ref=e769]:
+                  - generic [ref=e770]: Death date
+                  - generic [ref=e771]: Death place
+                  - generic [ref=e772]: Burial place
+                  - generic [ref=e773]: Source-backed evidence
+              - button "Clément Bourdon 0 linked sources Death date Death place Burial place Source-backed evidence" [ref=e774] [cursor=pointer]:
+                - generic [ref=e775]: Clément Bourdon
+                - generic [ref=e776]: 0 linked sources
+                - generic [ref=e777]:
+                  - generic [ref=e778]: Death date
+                  - generic [ref=e779]: Death place
+                  - generic [ref=e780]: Burial place
+                  - generic [ref=e781]: Source-backed evidence
+              - button "Daisy May Young 1875- · 0 linked sources Death date Death place Burial place Source-backed evidence" [ref=e782] [cursor=pointer]:
+                - generic [ref=e783]: Daisy May Young
+                - generic [ref=e784]: 1875- · 0 linked sources
+                - generic [ref=e785]:
+                  - generic [ref=e786]: Death date
+                  - generic [ref=e787]: Death place
+                  - generic [ref=e788]: Burial place
+                  - generic [ref=e789]: Source-backed evidence
+            - generic [ref=e790]:
+              - generic [ref=e791]:
+                - heading "Alexander Gardner" [level=4] [ref=e792]
+                - paragraph [ref=e793]: Dates not yet recorded
+                - button "Open profile" [ref=e794] [cursor=pointer]
+              - generic [ref=e795]:
+                - button "Birth date" [ref=e796] [cursor=pointer]
+                - button "Birth place" [ref=e797] [cursor=pointer]
+                - button "Death date" [ref=e798] [cursor=pointer]
+                - button "Death place" [ref=e799] [cursor=pointer]
+                - button "Burial place" [ref=e800] [cursor=pointer]
+                - button "Source-backed evidence" [ref=e801] [cursor=pointer]
+              - generic [ref=e802]:
+                - heading "Known facts" [level=5] [ref=e803]
+                - paragraph [ref=e804]: No structured life events are recorded yet.
+              - generic [ref=e805]:
+                - heading "How to research birth date" [level=5] [ref=e806]
+                - paragraph [ref=e807]: Start with birth, baptism, delayed birth, census, and obituary records. Census ages can estimate a year, but birth or baptism records are stronger.
+                - generic [ref=e808]:
+                  - button "Vital Record" [ref=e809] [cursor=pointer]
+                  - button "Church" [ref=e810] [cursor=pointer]
+                  - button "Census" [ref=e811] [cursor=pointer]
+                  - button "Newspaper" [ref=e812] [cursor=pointer]
+                  - button "Cemetery" [ref=e813] [cursor=pointer]
+              - generic [ref=e814]:
+                - heading "Citation builder" [level=5] [ref=e815]
+                - paragraph [ref=e816]: "Use enough detail that an admin can find the same record: collection title, website or repository, date/page/image, and what the record proves."
+                - generic [ref=e817]:
+                  - generic [ref=e818]:
+                    - generic [ref=e819]: What you found
+                    - textbox "What you found" [ref=e820]:
+                      - /placeholder: Proposed birth date
+                  - generic [ref=e821]:
+                    - generic [ref=e822]: Record title or collection
+                    - textbox "Record title or collection" [ref=e823]:
+                      - /placeholder: e.g., Illinois death certificate index
+                  - generic [ref=e824]:
+                    - generic [ref=e825]: Where found
+                    - textbox "Where found" [ref=e826]:
+                      - /placeholder: Website, archive, courthouse, cemetery, or family record
+                  - generic [ref=e827]:
+                    - generic [ref=e828]: Record detail
+                    - textbox "Record detail" [ref=e829]:
+                      - /placeholder: Certificate number, page, image, URL, or access date
+                  - generic [ref=e830]:
+                    - generic [ref=e831]: Research note
+                    - textbox "Research note" [ref=e832]:
+                      - /placeholder: Why this supports the update
+                - textbox "Citation note will appear here." [ref=e833]: Evidence for Alexander Gardner birth date
+                - generic [ref=e834]:
+                  - button "Use in Suggest a Change" [ref=e835] [cursor=pointer]
+                  - button "Copy citation" [ref=e836] [cursor=pointer]
+              - generic [ref=e837]:
+                - heading "Source leads already in this archive" [level=5] [ref=e838]
+                - paragraph [ref=e839]: No linked source is attached to this person yet. Use the recommended record types above to search Cited Sources or an outside repository, then include the citation in your suggestion.
+        - generic [ref=e840]:
+          - heading "Record Types in This Archive" [level=3] [ref=e841]
+          - generic [ref=e842]:
+            - generic [ref=e843]:
+              - generic [ref=e844]:
+                - generic [ref=e845]: 🏠
+                - generic [ref=e846]: Census & Population Records
+              - paragraph [ref=e847]: Federal and state census records list every member of a household — name, age, birthplace, occupation, and relationships — at a specific point in time.
+              - paragraph [ref=e848]:
+                - strong [ref=e849]: "Why it matters:"
+                - text: Census records are one of the best ways to place a family at a specific address, confirm who lived together, and estimate birth years for people without birth certificates.
+              - paragraph [ref=e850]:
+                - strong [ref=e851]: "What you'll find:"
+                - text: Names, ages, birthplaces, occupations, relationships, and home addresses. Later censuses (1880–1940) include parents' birthplaces and can confirm family groupings.
+              - button "View Census & Population Records in Cited Sources →" [ref=e852] [cursor=pointer]
+            - generic [ref=e853]:
+              - generic [ref=e854]:
+                - generic [ref=e855]: 🎖️
+                - generic [ref=e856]: Military Service Records
+              - paragraph [ref=e857]: Military records include draft registrations, service cards, and pension files that document a person's military experience.
+              - paragraph [ref=e858]:
+                - strong [ref=e859]: "Why it matters:"
+                - text: Veterans in the family often left behind some of the most detailed paper trails available — physical descriptions, home addresses, next-of-kin names, and discharge dates.
+              - paragraph [ref=e860]:
+                - strong [ref=e861]: "What you'll find:"
+                - text: Physical descriptions, dates of enlistment and discharge, rank, unit assignments, and sometimes family contact information.
+              - button "View Military Service Records in Cited Sources →" [ref=e862] [cursor=pointer]
+            - generic [ref=e863]:
+              - generic [ref=e864]:
+                - generic [ref=e865]: 📋
+                - generic [ref=e866]: Vital Records — Birth, Marriage & Death
+              - paragraph [ref=e867]: "Official records that document the three key milestones in a person's life: when they were born, who they married, and when they died."
+              - paragraph [ref=e868]:
+                - strong [ref=e869]: "Why it matters:"
+                - text: Vital records are among the most reliable genealogical documents because they were created at or near the time of the event and often include parents' names, witnesses, and places.
+              - paragraph [ref=e870]:
+                - strong [ref=e871]: "What you'll find:"
+                - text: Birth certificates give parents' names. Marriage records give ages and sometimes parents. Death certificates give cause of death and informant details.
+              - button "View Vital Records — Birth, Marriage & Death in Cited Sources →" [ref=e872] [cursor=pointer]
+            - generic [ref=e873]:
+              - generic [ref=e874]:
+                - generic [ref=e875]: 📰
+                - generic [ref=e876]: Newspapers & Obituaries
+              - paragraph [ref=e877]: Local newspapers recorded marriages, deaths, anniversaries, community events, and family news that official records often missed.
+              - paragraph [ref=e878]:
+                - strong [ref=e879]: "Why it matters:"
+                - text: Obituaries frequently mention surviving relatives by name — including married daughters whose surnames changed. Wedding announcements name both families and sometimes the church.
+              - paragraph [ref=e880]:
+                - strong [ref=e881]: "What you'll find:"
+                - text: Obituaries, wedding notices, anniversary announcements, letters to the editor, social columns, and local news items.
+              - button "View Newspapers & Obituaries in Cited Sources →" [ref=e882] [cursor=pointer]
+            - generic [ref=e883]:
+              - generic [ref=e884]:
+                - generic [ref=e885]: ⛪
+                - generic [ref=e886]: Cemetery & Burial Records
+              - paragraph [ref=e887]: Cemetery records and grave inscriptions confirm death dates and burial locations, and often reveal family groupings through nearby plots.
+              - paragraph [ref=e888]:
+                - strong [ref=e889]: "Why it matters:"
+                - text: Families were often buried together. Finding one person's grave can reveal siblings, spouses, and parents buried in the same section — sometimes not otherwise documented.
+              - paragraph [ref=e890]:
+                - strong [ref=e891]: "What you'll find:"
+                - text: Death dates, birth dates (when inscribed), military service markers, and the names of others buried in adjacent plots.
+              - button "View Cemetery & Burial Records in Cited Sources →" [ref=e892] [cursor=pointer]
+            - generic [ref=e893]:
+              - generic [ref=e894]:
+                - generic [ref=e895]: 🎓
+                - generic [ref=e896]: School Yearbooks
+              - paragraph [ref=e897]: School yearbooks capture a person at a specific age, place them in a community, and name classmates who may be connected to other family members.
+              - paragraph [ref=e898]:
+                - strong [ref=e899]: "Why it matters:"
+                - text: A yearbook photograph can put a human face on a name in the archive. Classmates named may be cousins, neighbors, or future spouses.
+              - paragraph [ref=e900]:
+                - strong [ref=e901]: "What you'll find:"
+                - text: Photographs, class years, activity lists, and sometimes graduation quotes or career plans.
+              - button "View School Yearbooks in Cited Sources →" [ref=e902] [cursor=pointer]
+            - generic [ref=e903]:
+              - generic [ref=e904]:
+                - generic [ref=e905]: 🚢
+                - generic [ref=e906]: Immigration & Naturalization
+              - paragraph [ref=e907]: Passenger manifests and naturalization papers document the journey from one country to another and the process of becoming a citizen.
+              - paragraph [ref=e908]:
+                - strong [ref=e909]: "Why it matters:"
+                - text: These records can reveal the exact village or town of origin in Europe — information that connects the American branch of the family to its roots abroad.
+              - paragraph [ref=e910]:
+                - strong [ref=e911]: "What you'll find:"
+                - text: Port of departure, date of arrival, last residence abroad, closest relative in the home country, and the name of the contact in the destination country.
+              - button "View Immigration & Naturalization in Cited Sources →" [ref=e912] [cursor=pointer]
+            - generic [ref=e913]:
+              - generic [ref=e914]:
+                - generic [ref=e915]: 📖
+                - generic [ref=e916]: Directories & Local Records
+              - paragraph [ref=e917]: City directories, county histories, and local public records place a person in a specific community and occupation at a given time.
+              - paragraph [ref=e918]:
+                - strong [ref=e919]: "Why it matters:"
+                - text: Directories were published annually and capture moves year to year. They can confirm an address, a profession, and a neighborhood long before or after a census year.
+              - paragraph [ref=e920]:
+                - strong [ref=e921]: "What you'll find:"
+                - text: Names, addresses, occupations, and sometimes business listings. County histories may include biographical sketches of prominent residents.
+              - button "View Directories & Local Records in Cited Sources →" [ref=e922] [cursor=pointer]
+        - generic [ref=e923]:
+          - heading "Guided Research Pathways" [level=3] [ref=e924]
+          - paragraph [ref=e925]: Each pathway walks through a common family-history question step by step. Suggestions point to records that may exist; what you find will depend on the specific people and places involved.
+          - generic [ref=e926]:
+            - heading "Immigration Pathway" [level=4] [ref=e927]
+            - paragraph [ref=e928]: Trace the family's roots from the Midwest back to Europe. This pathway follows the evidence from arrival records to the villages and towns the first generation left behind.
+            - list [ref=e929]:
+              - listitem [ref=e930]:
+                - strong [ref=e931]: Start with what you know
+                - text: — Find a family member who immigrated. Census records from around 1900–1930 will list their birthplace and their parents' birthplaces — start there.
+              - listitem [ref=e932]:
+                - strong [ref=e933]: Check passenger lists
+                - text: — Search the archive's Immigration records for passenger manifests. These often list the last place of residence abroad and a contact in the origin country.
+              - listitem [ref=e934]:
+                - strong [ref=e935]: Look for naturalization papers
+                - text: — Naturalization records frequently name the specific town or village of origin. Look for declarations of intent and final papers filed in the county courthouse.
+              - listitem [ref=e936]:
+                - strong [ref=e937]: Research the origin community
+                - text: — Once you have a specific place — a village in Germany, Bohemia, or elsewhere — church records, civil registration, and emigration lists there may extend the family back several more generations.
+            - generic [ref=e938]:
+              - generic [ref=e939]: "Related records in this archive:"
+              - button "Immigration & Naturalization" [ref=e940] [cursor=pointer]
+              - button "Census & Population Records" [ref=e941] [cursor=pointer]
+          - generic [ref=e942]:
+            - heading "Military Service Pathway" [level=4] [ref=e943]
+            - paragraph [ref=e944]: The family archive contains military records spanning several conflicts. This pathway helps you understand what each record type reveals and how to connect a service record to a person's broader life.
+            - list [ref=e945]:
+              - listitem [ref=e946]:
+                - strong [ref=e947]: Identify the conflict and branch
+                - text: — World War I, World War II, and other eras each have different record sets. Draft registrations, service records, and discharge papers come from different repositories.
+              - listitem [ref=e948]:
+                - strong [ref=e949]: Check draft registrations
+                - text: — WWI and WWII draft cards are among the most widely available military records. They include the registrant's physical description, employer, and next of kin — sometimes revealing a spouse or parents not found elsewhere.
+              - listitem [ref=e950]:
+                - strong [ref=e951]: Look for pension and benefits records
+                - text: — Veterans who applied for pensions left behind detailed files. Widow's pension applications are especially rich — they often include marriage certificates, birth records, and affidavits from neighbors.
+              - listitem [ref=e952]:
+                - strong [ref=e953]: Connect to newspapers and cemeteries
+                - text: — Many veterans were remembered in local newspaper obituaries with full service histories. Cemetery records may show military service markers.
+            - generic [ref=e954]:
+              - generic [ref=e955]: "Related records in this archive:"
+              - button "Military Service Records" [ref=e956] [cursor=pointer]
+              - button "Newspapers & Obituaries" [ref=e957] [cursor=pointer]
+              - button "Cemetery & Burial Records" [ref=e958] [cursor=pointer]
+          - generic [ref=e959]:
+            - heading "Local Life Pathway — Quad Cities Area" [level=4] [ref=e960]
+            - paragraph [ref=e961]: Much of the family's history is rooted in the Quad Cities area — Rock Island, Moline, East Moline, and Davenport. This pathway guides you through the local records that document everyday life in that region.
+            - list [ref=e962]:
+              - listitem [ref=e963]:
+                - strong [ref=e964]: Use census records to anchor the family
+                - text: — Federal census records from 1880 through 1940 track Rock Island and Scott County households year by year. Find the family address and look for neighbors — many will be relatives or people who knew the family.
+              - listitem [ref=e965]:
+                - strong [ref=e966]: Search local newspapers
+                - text: — The Rock Island Argus, Moline Daily Dispatch, and Davenport newspapers all covered local family news. Births, deaths, church events, school graduations, and community activities were regularly reported.
+              - listitem [ref=e967]:
+                - strong [ref=e968]: Check cemetery records
+                - text: — Rock Island County has dozens of cemeteries. Many family members are buried at Chippiannock, Lincoln Memorial Park, or smaller township cemeteries. Cemetery records often include plot maps showing adjacent burials.
+              - listitem [ref=e969]:
+                - strong [ref=e970]: Look at city directories
+                - text: — Annual city directories for Rock Island, Moline, and Davenport list residents by name and address, year by year. These can track moves within the metro area and confirm occupations.
+            - generic [ref=e971]:
+              - generic [ref=e972]: "Related records in this archive:"
+              - button "Census & Population Records" [ref=e973] [cursor=pointer]
+              - button "Newspapers & Obituaries" [ref=e974] [cursor=pointer]
+              - button "Cemetery & Burial Records" [ref=e975] [cursor=pointer]
+              - button "Directories & Local Records" [ref=e976] [cursor=pointer]
+          - generic [ref=e977]:
+            - heading "Marriage & Maiden Name Pathway" [level=4] [ref=e978]
+            - paragraph [ref=e979]: Tracing women in the family tree can be challenging because surnames change at marriage. This pathway walks through the record types most likely to preserve a woman's full identity.
+            - list [ref=e980]:
+              - listitem [ref=e981]:
+                - strong [ref=e982]: Start with the marriage record
+                - text: — Marriage certificates and licenses record the bride's maiden name, age, birthplace, and often her parents' names. County courthouse records or vital records offices hold these.
+              - listitem [ref=e983]:
+                - strong [ref=e984]: Check the bride's parents in earlier censuses
+                - text: — Once you have the maiden name, search earlier censuses (before the marriage) for a household with that surname and a daughter matching the right age. This can reveal her siblings and parents.
+              - listitem [ref=e985]:
+                - strong [ref=e986]: Look for maiden name in obituaries
+                - text: — Newspaper obituaries frequently mention a woman's maiden name, especially in communities where families had long roots. "née [maiden name]" or "formerly of the [surname] family" are common phrasings.
+              - listitem [ref=e987]:
+                - strong [ref=e988]: Check vital records under both names
+                - text: — Birth records for a woman's children may list her full maiden name. Death certificates often include the informant — a child or sibling — who may supply the maiden name even if it wasn't used in daily life.
+            - generic [ref=e989]:
+              - generic [ref=e990]: "Related records in this archive:"
+              - button "Vital Records — Birth, Marriage & Death" [ref=e991] [cursor=pointer]
+              - button "Census & Population Records" [ref=e992] [cursor=pointer]
+              - button "Newspapers & Obituaries" [ref=e993] [cursor=pointer]

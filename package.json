@@ -1,0 +1,37 @@
+{
+  "name": "fresh-start-family",
+  "version": "2.7.2",
+  "description": "A lightweight family tree application with Google authentication and photo gallery",
+  "scripts": {
+    "dev": "vite",
+    "build": "npm run catalog-photos && npm run build-directory && npm run build-cited-sources && npm run build-places && vite build && npm run post-build",
+    "preview": "vite preview",
+    "validate-firebase-config": "node scripts/validate-firebase-config.js",
+    "catalog-photos": "node scripts/catalog-photos.js",
+    "build-directory": "node scripts/build-directory.js",
+    "build-cited-sources": "node scripts/build-cited-sources.js",
+    "build-places": "node scripts/build-places.js",
+    "extract-person-photos": "node scripts/extract-person-photos.js",
+    "extract-person-family": "node scripts/extract-person-family.js",
+    "extract-person-details": "node scripts/extract-person-details.js",
+    "test-accuracy-score": "node scripts/test-accuracy-score.js",
+    "test-governance-integration": "npx firebase-tools@latest emulators:exec --project demo-freshstart-governance --only auth,firestore,storage,functions \"node scripts/test-governance-read-only.mjs\"",
+    "verify-release": "node scripts/verify-release.js",
+    "validate-protected-data": "node scripts/validate-protected-data.js",
+    "post-build": "node scripts/post-build.js"
+  },
+  "dependencies": {
+    "cytoscape": "^3.33.1",
+    "cytoscape-dagre": "^2.5.0",
+    "dagre": "^0.8.5",
+    "firebase": "^12.10.0"
+  },
+  "devDependencies": {
+    "@firebase/rules-unit-testing": "^5.0.0",
+    "firebase-admin": "^13.8.0",
+    "vite": "^8.0.5"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  }
+}

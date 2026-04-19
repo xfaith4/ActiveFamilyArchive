@@ -1,0 +1,67 @@
+rules_version = '2';
+service firebase.storage {
+  match /b/{bucket}/o {
+    function isNormalMode() {
+      return !firestore.exists(/databases/(default)/documents/app_config/governance) ||
+        firestore.get(/databases/(default)/documents/app_config/governance).data.mode == 'normal';
+    }
+
+    // Auth-gated data files — JSON build artifacts containing genealogical data.
+    // Readable only by authenticated users. Written only by the CI service account
+    // (admin SDK writes bypass these rules entirely).
+    match /data/{filename} {
+      allow read:  if request.auth != null;
+      allow write: if false;
+    }
+
+    // User-uploaded photos for person profiles.
+    // Any authenticated user may upload images up to 10 MB.
+    // Only the admin may delete files.
+    match /uploads/{personId}/{filename} {
+      allow read:   if request.auth != null;
+      allow create: if request.auth != null
+                    && isNormalMode()
+                    && request.resource.size <= 10 * 1024 * 1024
+                    && request.resource.contentType.matches('image/.*');
+      allow delete: if request.auth != null
+                    && request.auth.token.email == 'ben.fuhr@gmail.com';
+    }
+
+    // User-uploaded evidence artifacts (birth/marriage/death certificates,
+    // obituary clippings, family Bible pages, census scans, etc.) attached to a
+    // person profile. Images or PDF, up to 15 MB per artifact.
+    // Only the admin may delete files.
+    match /evidence/{personId}/{filename} {
+      allow read:   if request.auth != null;
+      allow create: if request.auth != null
+                    && isNormalMode()
+                    && request.resource.size <= 15 * 1024 * 1024
+                    && (
+                      request.resource.contentType.matches('image/.*') ||
+                      request.resource.contentType == 'application/pdf'
+                    );
+      allow delete: if request.auth != null
+                    && request.auth.token.email == 'ben.fuhr@gmail.com';
+    }
+
+    // Family Message Board post attachments — one optional image per post.
+    // Uploaded under the generated postId before the Firestore post is created.
+    // Same image-only 10 MB cap as /uploads/. If a board_posts/{postId} doc
+    // already exists, the uploader must be its author — prevents an authorized
+    // user from overwriting another user's attachment bucket after compose.
+    match /board/{postId}/{filename} {
+      allow read:   if request.auth != null;
+      allow create: if request.auth != null
+                    && isNormalMode()
+                    && request.resource.size <= 10 * 1024 * 1024
+                    && request.resource.contentType.matches('image/.*')
+                    && (
+                      !firestore.exists(/databases/(default)/documents/board_posts/$(postId))
+                      || firestore.get(/databases/(default)/documents/board_posts/$(postId)).data.authorEmail == request.auth.token.email
+                    );
+      allow delete: if request.auth != null
+                    && request.auth.token.email == 'ben.fuhr@gmail.com';
+    }
+
+  }
+}

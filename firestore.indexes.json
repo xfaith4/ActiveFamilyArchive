@@ -1,0 +1,38 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "photo_uploads",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "personId", "order": "ASCENDING" },
+        { "fieldPath": "status",   "order": "ASCENDING" }
+      ]
+    },
+    {
+      "collectionGroup": "photo_uploads",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "status",     "order": "ASCENDING" },
+        { "fieldPath": "uploadedAt", "order": "DESCENDING" }
+      ]
+    },
+    {
+      "collectionGroup": "photo_uploads",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "status",     "order": "ASCENDING" },
+        { "fieldPath": "reviewedAt", "order": "DESCENDING" }
+      ]
+    }
+    ,
+    {
+      "collectionGroup": "photo_notes",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "photoPath", "order": "ASCENDING" },
+        { "fieldPath": "createdAt", "order": "ASCENDING" }
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}

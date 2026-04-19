@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Living Family Archive • A private space for our family's history</title>
+  <style>
+    :root {
+      --bg: #0b1220;
+      --card: rgba(255, 255, 255, 0.06);
+      --card-strong: rgba(255, 255, 255, 0.12);
+      --text: #eaf1ff;
+      --muted: #b8c0d9;
+      --accent: #7cd2ff;
+      --accent-strong: #4fa1ff;
+      --green: #5ee8a0;
+      --amber: #ffd06b;
+      --rose: #ff9ec7;
+      --shadow: 0 20px 70px rgba(0, 0, 0, 0.35);
+      --radius: 16px;
+      --border: 1px solid rgba(255, 255, 255, 0.08);
+    }
+
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Inter", "Segoe UI", system-ui, -apple-system, sans-serif;
+      color: var(--text);
+      background: radial-gradient(circle at 20% 20%, rgba(79, 161, 255, 0.08), transparent 30%),
+                  radial-gradient(circle at 80% 0%, rgba(124, 210, 255, 0.09), transparent 25%),
+                  radial-gradient(circle at 50% 90%, rgba(255, 158, 199, 0.05), transparent 30%),
+                  var(--bg);
+      min-height: 100vh;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .page {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 32px 22px 80px;
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      padding: 16px 18px;
+      margin-bottom: 26px;
+      border-radius: var(--radius);
+      background: var(--card);
+      border: var(--border);
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(10px);
+      position: sticky;
+      top: 18px;
+      z-index: 10;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .badge {
+      width: 40px;
+      height: 40px;
+      border-radius: 12px;
+      background: linear-gradient(135deg, var(--accent), var(--accent-strong));
+      display: grid;
+      place-items: center;
+      font-weight: 700;
+      color: #061226;
+      letter-spacing: -0.6px;
+      font-size: 15px;
+      box-shadow: 0 10px 35px rgba(79, 161, 255, 0.35);
+    }
+    .brand h1 {
+      margin: 0;
+      font-size: 18px;
+      letter-spacing: -0.3px;
+    }
+    .brand h1 .tagline {
+      display: block;
+      font-size: 11px;
+      font-weight: 500;
+      color: var(--muted);
+      letter-spacing: 0.4px;
+      margin-top: 2px;
+    }
+    nav {
+      display: flex;
+      gap: 14px;
+      flex-wrap: wrap;
+    }
+    nav a {
+      padding: 9px 14px;
+      border-radius: 12px;
+      color: var(--text);
+      text-decoration: none;
+      background: rgba(255, 255, 255, 0.04);
+      border: var(--border);
+      font-size: 14px;
+      transition: transform 120ms ease, background 120ms ease;
+    }
+    nav a:hover {
+      transform: translateY(-1px);
+      background: rgba(255, 255, 255, 0.07);
+    }
+
+    /* ── Hero ── */
+    .hero {
+      background: linear-gradient(135deg, rgba(124, 210, 255, 0.12), rgba(79, 161, 255, 0.08));
+      border-radius: 22px;
+      padding: 42px 34px;
+      border: var(--border);
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(12px);
+      margin-bottom: 26px;
+    }
+    .hero .eyebrow {
+      display: inline-block;
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 1.2px;
+      color: var(--accent);
+      margin-bottom: 12px;
+      font-weight: 600;
+    }
+    .hero h2 {
+      margin: 0 0 14px;
+      font-size: 36px;
+      letter-spacing: -0.7px;
+      line-height: 1.15;
+    }
+    .hero p {
+      margin: 0 0 22px;
+      color: var(--muted);
+      max-width: 740px;
+      line-height: 1.75;
+      font-size: 16px;
+    }
+    .pills {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-bottom: 22px;
+    }
+    .pill {
+      padding: 8px 14px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.08);
+      border: var(--border);
+      color: var(--text);
+      font-size: 13px;
+    }
+    .cta-row {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+    .btn {
+      padding: 12px 20px;
+      border-radius: 12px;
+      border: none;
+      color: #061226;
+      font-weight: 700;
+      font-size: 14px;
+      text-decoration: none;
+      background: linear-gradient(135deg, var(--accent), var(--accent-strong));
+      box-shadow: 0 12px 35px rgba(79, 161, 255, 0.4);
+      transition: transform 120ms ease, box-shadow 120ms ease;
+    }
+    .btn.secondary {
+      background: transparent;
+      color: var(--text);
+      border: var(--border);
+      box-shadow: none;
+    }
+    .btn:hover { transform: translateY(-1px); box-shadow: 0 16px 40px rgba(79, 161, 255, 0.45); }
+    .btn.secondary:hover { transform: translateY(-1px); background: rgba(255, 255, 255, 0.06); box-shadow: none; }
+
+    /* ── Section headings ── */
+    .section-heading {
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: var(--accent);
+      margin: 0 0 14px;
+      font-weight: 600;
+    }
+    .section-intro {
+      color: var(--muted);
+      margin: -8px 0 18px;
+      line-height: 1.65;
+      font-size: 15px;
+      max-width: 760px;
+    }
+
+    /* ── Grids ── */
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 16px;
+      margin-bottom: 28px;
+    }
+    .grid-2 {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+      gap: 16px;
+      margin-bottom: 28px;
+    }
+
+    /* ── Cards ── */
+    .card {
+      background: var(--card);
+      border: var(--border);
+      border-radius: var(--radius);
+      padding: 22px;
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(8px);
+    }
+    .card h3 {
+      margin: 0 0 8px;
+      font-size: 17px;
+      letter-spacing: -0.2px;
+    }
+    .card p {
+      margin: 0;
+      color: var(--muted);
+      line-height: 1.65;
+      font-size: 14px;
+    }
+    .card-icon {
+      font-size: 26px;
+      margin-bottom: 10px;
+      display: block;
+    }
+
+    /* ── Feature list inside cards ── */
+    .feat-list {
+      list-style: none;
+      padding: 0;
+      margin: 12px 0 0;
+      display: flex;
+      flex-direction: column;
+      gap: 7px;
+    }
+    .feat-list li {
+      display: flex;
+      align-items: baseline;
+      gap: 8px;
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.5;
+    }
+    .feat-list li::before {
+      content: "→";
+      color: var(--accent);
+      flex-shrink: 0;
+      font-size: 12px;
+    }
+
+    /* ── Stat cards ── */
+    .stat-val {
+      font-size: 36px;
+      font-weight: 800;
+      letter-spacing: -0.8px;
+      color: var(--accent);
+      margin: 6px 0 4px;
+      display: block;
+    }
+    .stat-label {
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: 0.7px;
+      color: var(--muted);
+      display: block;
+    }
+
+    /* ── Roadmap items ── */
+    .roadmap-item {
+      padding: 14px 16px;
+      border-radius: 12px;
+      background: rgba(255, 255, 255, 0.04);
+      border: var(--border);
+      display: flex;
+      align-items: flex-start;
+      gap: 14px;
+    }
+    .roadmap-item + .roadmap-item { margin-top: 10px; }
+    .tag {
+      padding: 3px 10px;
+      border-radius: 999px;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.4px;
+      flex-shrink: 0;
+      margin-top: 1px;
+      white-space: nowrap;
+    }
+    .tag.shipped { background: rgba(124, 210, 255, 0.15); color: var(--accent); border: 1px solid rgba(124, 210, 255, 0.25); }
+    .tag.soon  { background: rgba(94, 232, 160, 0.15); color: var(--green); border: 1px solid rgba(94, 232, 160, 0.25); }
+    .tag.planned { background: rgba(255, 208, 107, 0.12); color: var(--amber); border: 1px solid rgba(255, 208, 107, 0.25); }
+    .roadmap-text strong {
+      display: block;
+      font-size: 14px;
+      margin-bottom: 2px;
+    }
+    .roadmap-text span {
+      font-size: 13px;
+      color: var(--muted);
+      line-height: 1.55;
+    }
+
+    /* ── Steps ── */
+    .steps {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    .step {
+      display: flex;
+      gap: 14px;
+      align-items: flex-start;
+    }
+    .step-num {
+      width: 28px;
+      height: 28px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, var(--accent), var(--accent-strong));
+      color: #061226;
+      font-weight: 800;
+      font-size: 13px;
+      display: grid;
+      place-items: center;
+      flex-shrink: 0;
+      margin-top: 1px;
+    }
+    .step-body strong {
+      display: block;
+      font-size: 14px;
+      margin-bottom: 3px;
+    }
+    .step-body span {
+      font-size: 13px;
+      color: var(--muted);
+      line-height: 1.55;
+    }
+
+    /* ── Invitation card ── */
+    .invitation {
+      background: linear-gradient(135deg, rgba(94, 232, 160, 0.08), rgba(124, 210, 255, 0.06));
+      border: 1px solid rgba(94, 232, 160, 0.18);
+      border-radius: var(--radius);
+      padding: 26px;
+      margin-bottom: 28px;
+      box-shadow: var(--shadow);
+    }
+    .invitation h3 {
+      margin: 0 0 8px;
+      font-size: 18px;
+    }
+    .invitation p {
+      margin: 0 0 14px;
+      color: var(--muted);
+      line-height: 1.65;
+      font-size: 14px;
+    }
+
+    /* ── Values row ── */
+    .values {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 14px;
+      margin-bottom: 28px;
+    }
+    .value {
+      padding: 18px;
+      border-radius: 14px;
+      background: rgba(255, 255, 255, 0.04);
+      border: var(--border);
+    }
+    .value strong {
+      display: block;
+      font-size: 14px;
+      margin-bottom: 6px;
+      color: var(--text);
+    }
+    .value span {
+      font-size: 13px;
+      color: var(--muted);
+      line-height: 1.6;
+    }
+
+    /* ── Misc ── */
+    .muted { color: var(--muted); }
+    a.inline { color: var(--accent); text-decoration: none; }
+    a.inline:hover { text-decoration: underline; }
+    .full-width { grid-column: 1 / -1; }
+    footer {
+      text-align: center;
+      color: var(--muted);
+      margin-top: 30px;
+      font-size: 14px;
+      line-height: 1.7;
+    }
+    footer .tagline-line {
+      margin-top: 12px;
+      font-size: 13px;
+      color: var(--muted);
+      font-style: italic;
+    }
+
+    @media (max-width: 720px) {
+      header { position: static; flex-direction: column; align-items: flex-start; }
+      .hero { padding: 26px 22px; }
+      .hero h2 { font-size: 26px; }
+      .page { padding: 22px 18px 60px; }
+      .grid-2 { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+
+    <header>
+      <div class="brand">
+        <div class="badge">LFA</div>
+        <h1>
+          Living Family Archive
+          <span class="tagline">A private home for our family's history</span>
+        </h1>
+      </div>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#features">Features</a>
+        <a href="#getting-started">Getting Started</a>
+        <a href="#coming-soon">What's Next</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <!-- ── Hero ── -->
+    <section class="hero" id="about">
+      <span class="eyebrow">For our family — by our family</span>
+      <h2>The people, photos, and stories that make us who we are — all in one place.</h2>
+      <p>
+        The Living Family Archive is a private, invitation-only home for our family history.
+        Search for a relative, open their profile, browse historical photos, explore an
+        interactive family tree, and read the cited records behind the family story. Everything
+        is protected behind secure Google sign-in and shared only with invited family members.
+      </p>
+      <div class="pills">
+        <span class="pill">512 family members</span>
+        <span class="pill">685+ family photos</span>
+        <span class="pill">100 cited sources</span>
+        <span class="pill">Invitation-only access</span>
+        <span class="pill">Works on phone &amp; desktop</span>
+        <span class="pill">Built for all ages</span>
+      </div>
+      <div class="cta-row">
+        <a class="btn" data-link="app" target="_blank" rel="noreferrer">Open the archive</a>
+        <a class="btn secondary" href="#getting-started">How to get access</a>
+      </div>
+    </section>
+
+    <!-- ── Values row ── -->
+    <section class="values">
+      <div class="value">
+        <strong>Private by design</strong>
+        <span>Every page is protected behind Google sign-in. Only invited relatives can see what's inside.</span>
+      </div>
+      <div class="value">
+        <strong>Easy for everyone</strong>
+        <span>Designed for relatives of every age and comfort level — search, tap, explore. No genealogy background required.</span>
+      </div>
+      <div class="value">
+        <strong>Carefully sourced</strong>
+        <span>Facts are tied to original records, so we know where each date, place, and name came from.</span>
+      </div>
+      <div class="value">
+        <strong>Cared for &amp; growing</strong>
+        <span>Actively maintained by the family. New photos, records, and features roll out through careful review.</span>
+      </div>
+    </section>
+
+    <!-- ── Features ── -->
+    <p class="section-heading" id="features">What you can do inside</p>
+    <p class="section-intro">Twelve features working together to make family history approachable, searchable, and shareable.</p>
+    <section class="grid">
+
+      <div class="card">
+        <span class="card-icon">🔍</span>
+        <h3>Search &amp; Profiles</h3>
+        <p>Find anyone in the archive by name, year, or place. Each profile brings together life events, family relationships, photos, and family-authored notes.</p>
+        <ul class="feat-list">
+          <li>Search by name, year, or place</li>
+          <li>Life events, birth and death details</li>
+          <li>Parents, spouse, children, and linked photos</li>
+          <li>Jump from one relative to another with a tap</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <span class="card-icon">🌳</span>
+        <h3>Interactive Family Tree</h3>
+        <p>Explore the family as an interactive diagram with bloodline, household, explore, and a me-centered relationship lens that always shows your own place in the tree.</p>
+        <ul class="feat-list">
+          <li>Family, pedigree, descendants, and branch views</li>
+          <li>Me-centered Relationship Lens anchored to you</li>
+          <li>Selected people trace visibly back to you</li>
+          <li>Pan, zoom, and re-center if you get lost</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <span class="card-icon">💞</span>
+        <h3>Relationship Labels &amp; Trace</h3>
+        <p>See exactly how any person is related to you — parent, aunt, second cousin, and beyond — in search results, profiles, and the family tree.</p>
+        <ul class="feat-list">
+          <li>Kinship labels relative to your linked profile</li>
+          <li>Visible relationship trace in the tree</li>
+          <li>Info popover explains how each label is computed</li>
+          <li>Shown across search, profiles, and tree context</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <span class="card-icon">📷</span>
+        <h3>Photo Gallery</h3>
+        <p>Browse hundreds of historical family photos and documents across generations. Open any image in the in-app lightbox to read captions and hop to linked relatives.</p>
+        <ul class="feat-list">
+          <li>685+ scanned photos and documents</li>
+          <li>In-app lightbox with previous and next navigation</li>
+          <li>Person chips link directly to family profiles</li>
+          <li>Relatives can upload new photos for review</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <span class="card-icon">📚</span>
+        <h3>Cited Sources Library</h3>
+        <p>Every fact is anchored to a real record. The sources library keeps exact citations visible while making them easy to browse for non-technical family members.</p>
+        <ul class="feat-list">
+          <li>100 cited records from the family archive</li>
+          <li>Filter by record type, place, year range, or link</li>
+          <li>Related surnames, places, and linked relatives</li>
+          <li>Open the original citation or external record</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <span class="card-icon">🧭</span>
+        <h3>Research Library &amp; Guided Pathways</h3>
+        <p>A friendlier research surface that groups record categories and helps relatives understand where to look next — no genealogy experience needed.</p>
+        <ul class="feat-list">
+          <li>Record categories grouped by type</li>
+          <li>Guided pathways for common research questions</li>
+          <li>Plain-language explanations of each record type</li>
+          <li>Jump from a source to the people it touches</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <span class="card-icon">📍</span>
+        <h3>Place Pages &amp; Branch Guidance</h3>
+        <p>Explore the recurring towns, counties, and family clusters that shape our story. Location pages connect people, sources, and research ideas.</p>
+        <ul class="feat-list">
+          <li>Pages for recurring places in the archive</li>
+          <li>People and sources connected to each place</li>
+          <li>Branch-level research guidance</li>
+          <li>Geographic clustering around family hubs</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <span class="card-icon">📎</span>
+        <h3>Evidence Attachments</h3>
+        <p>Attach certificates, obituaries, family Bible pages, census scans, and other evidence directly to a person's profile — up to 15 MB per artifact.</p>
+        <ul class="feat-list">
+          <li>Images or PDFs up to 15 MB each</li>
+          <li>Attached directly to the person they concern</li>
+          <li>Admin-reviewed before appearing in the archive</li>
+          <li>Supports birth, marriage, death, and obituary records</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <span class="card-icon">📊</span>
+        <h3>Family Analytics</h3>
+        <p>Discover patterns in the archive through family-wide summaries that stay grounded in real records and can be explored in more detail with one tap.</p>
+        <ul class="feat-list">
+          <li>Surnames, given names, and birth decades</li>
+          <li>Living and deceased distribution</li>
+          <li>Geographic clustering and origin counts</li>
+          <li>Click any stat for a filtered people list</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <span class="card-icon">📈</span>
+        <h3>Your Accuracy Score</h3>
+        <p>See at a glance how complete and well-sourced the information is for the people closest to you, and where a little added context could strengthen the record.</p>
+        <ul class="feat-list">
+          <li>Per-user data accuracy score</li>
+          <li>Nationality ratio based on your lineage</li>
+          <li>Highlights records that could use a source</li>
+          <li>Encourages careful, shared improvement</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <span class="card-icon">🛠️</span>
+        <h3>Family Contributions</h3>
+        <p>Relatives can help improve the archive without putting core genealogical facts at risk. Every contribution stays reviewable and traceable.</p>
+        <ul class="feat-list">
+          <li>Suggest factual corrections with optional citations</li>
+          <li>Upload photos from a person's profile</li>
+          <li>Edit nicknames and profile notes with audit history</li>
+          <li>All contributions stay invitation-only and secure</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <span class="card-icon">🛡️</span>
+        <h3>Careful Stewardship</h3>
+        <p>The archive is built to protect family history across generations. Permission governance and historical read-only mode keep the record steady and safe.</p>
+        <ul class="feat-list">
+          <li>Role-based permissions for contributors and viewers</li>
+          <li>Historical read-only mode protects the archive at rest</li>
+          <li>Staged releases verified before reaching the live archive</li>
+          <li>Audit trails behind every change</li>
+        </ul>
+      </div>
+
+    </section>
+
+    <!-- ── Stats row ── -->
+    <section class="grid">
+      <div class="card">
+        <span class="stat-label">Photos in the collection</span>
+        <span class="stat-val">685+</span>
+        <p class="muted" style="font-size:13px;">Historical photos, documents, and portraits across both family trees.</p>
+      </div>
+      <div class="card">
+        <span class="stat-label">Family members indexed</span>
+        <span class="stat-val">512</span>
+        <p class="muted" style="font-size:13px;">Every person in the tree is searchable and has a dedicated profile page.</p>
+      </div>
+      <div class="card">
+        <span class="stat-label">Cited sources indexed</span>
+        <span class="stat-val">100</span>
+        <p class="muted" style="font-size:13px;">Citations stay visible while the app adds plain-language context and linked relatives.</p>
+      </div>
+    </section>
+
+    <!-- ── Invitation callout ── -->
+    <section class="invitation">
+      <h3>A quiet invitation</h3>
+      <p>
+        If you're a relative reading this page, you are warmly invited to join. The archive is a
+        small, private space for our family — no public profiles, no social feed, no ads. Your
+        visit is welcome, your memories are valuable, and your stories help make the record more
+        complete.
+      </p>
+      <div class="cta-row">
+        <a class="btn" data-link="app" target="_blank" rel="noreferrer">Open the archive</a>
+        <a class="btn secondary" data-link="contact-email">Ask for an invitation</a>
+      </div>
+    </section>
+
+    <!-- ── Getting Started ── -->
+    <p class="section-heading" id="getting-started">Getting started</p>
+    <section class="grid-2">
+
+      <div class="card">
+        <h3>How to get access</h3>
+        <p style="margin-bottom:18px;">Access is invitation-only to keep family data private. Here's how to get set up:</p>
+        <div class="steps">
+          <div class="step">
+            <div class="step-num">1</div>
+            <div class="step-body">
+              <strong>Request an invitation</strong>
+              <span>Contact the archive admin (see the Contact section below) and ask to be added. You'll need a Google account.</span>
+            </div>
+          </div>
+          <div class="step">
+            <div class="step-num">2</div>
+            <div class="step-body">
+              <strong>Sign in with Google</strong>
+              <span>Once you're added, open the archive and click "Sign in with Google." Use the same Google account you shared with the admin.</span>
+            </div>
+          </div>
+          <div class="step">
+            <div class="step-num">3</div>
+            <div class="step-body">
+              <strong>Start exploring</strong>
+              <span>Search for a relative, open their profile, browse the photo gallery, walk the family tree, or dip into the cited sources.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>Tips for getting around</h3>
+        <ul class="feat-list" style="margin-top:0;">
+          <li>The <strong>search bar</strong> at the top searches every family member by name — the fastest way to find someone.</li>
+          <li>Inside a <strong>profile</strong>, tap any relative's name to hop straight to them.</li>
+          <li>In the <strong>family tree</strong>, scroll to zoom and click-drag to pan. Press the re-center button if you get lost.</li>
+          <li>The <strong>Relationship Lens</strong> keeps you at the center so you can see how everyone connects back to you.</li>
+          <li>The <strong>Cited Sources</strong> library explains each record type in plain language and ties sources back to people and places.</li>
+          <li>The <strong>Analytics page</strong> shows family-wide stats — tap any bar to open a filtered list of matching members.</li>
+          <li>To add a photo, open a profile and tap <strong>Add Photo</strong>. Admins review new uploads before they appear.</li>
+          <li>Spot something wrong? Use <strong>Suggest a Change</strong> inside the app or contact the admin below.</li>
+        </ul>
+      </div>
+
+    </section>
+
+    <!-- ── Coming Soon ── -->
+    <p class="section-heading" id="coming-soon">What's next</p>
+    <p class="section-intro">The archive keeps growing. Here's what's on the horizon — shaped by family feedback and careful review.</p>
+    <section class="card" style="margin-bottom:28px;">
+      <h3 style="margin-bottom:16px;">In the works</h3>
+
+      <div class="roadmap-item">
+        <span class="tag soon">In progress</span>
+        <div class="roadmap-text">
+          <strong>Family Message Board</strong>
+          <span>A quiet shared space where relatives can post updates, share a photo, and comment on each other's memories. Moderated and private to the family.</span>
+        </div>
+      </div>
+
+      <div class="roadmap-item">
+        <span class="tag planned">Planned</span>
+        <div class="roadmap-text">
+          <strong>Community Member Additions with Moderated Review</strong>
+          <span>Any family member will be able to add a new relative to the tree through a guided form, with admin approve-or-decline moderation and contributor notifications.</span>
+        </div>
+      </div>
+
+      <div class="roadmap-item">
+        <span class="tag planned">Planned</span>
+        <div class="roadmap-text">
+          <strong>Expanded Historical Photo Notes</strong>
+          <span>Continuing work to make older, unlabeled photos more understandable — careful historical context, research clues, and gentler storytelling around what we know and what we don't.</span>
+        </div>
+      </div>
+
+      <div class="roadmap-item">
+        <span class="tag planned">Planned</span>
+        <div class="roadmap-text">
+          <strong>Careful Production Promotion</strong>
+          <span>New work continues to land on the staging archive first and is promoted into the live family archive only after review — keeping everyone's experience stable.</span>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- ── Contact ── -->
+    <footer id="contact">
+      <p>
+        Have a question, found something missing, or want to be added?<br>
+        Reach out to the archive admin at <a class="inline" data-link="contact-email">ben.fuhr@gmail.com</a>.
+      </p>
+      <p style="margin-top:10px; font-size:13px;">
+        Living Family Archive &mdash; a private family history project &mdash; v2.7.3
+      </p>
+      <p class="tagline-line">Preserving the people and stories that made us, for the family that comes next.</p>
+    </footer>
+
+  </div>
+
+  <script>
+    (function () {
+      const appUrl = "https://familytree-f8ac9.web.app";
+      const adminEmail = "ben.fuhr@gmail.com";
+
+      const links = {
+        app: appUrl,
+        "contact-email": `mailto:${adminEmail}`,
+      };
+
+      document.querySelectorAll("[data-link]").forEach((el) => {
+        const key = el.getAttribute("data-link");
+        if (links[key]) {
+          el.setAttribute("href", links[key]);
+        }
+      });
+    })();
+  </script>
+</body>
+</html>

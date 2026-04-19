@@ -1,0 +1,7 @@
+{
+  "projects": {
+    "default": "familytree-f8ac9",
+    "production": "familytree-f8ac9",
+    "staging": "familytree-staging"
+  }
+}

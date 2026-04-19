@@ -1,0 +1,1207 @@
+{
+  "1": {
+    "personIds": [
+      "489"
+    ],
+    "places": [
+      "New York, New York, United States",
+      "Southampton, England"
+    ],
+    "occurrences": 4
+  },
+  "2": {
+    "personIds": [
+      "489"
+    ],
+    "places": [
+      "Shawnee, Kansas, United States"
+    ],
+    "occurrences": 2
+  },
+  "3": {
+    "personIds": [
+      "489"
+    ],
+    "places": [
+      "England"
+    ],
+    "occurrences": 2
+  },
+  "4": {
+    "personIds": [
+      "194",
+      "426",
+      "429",
+      "431",
+      "468",
+      "481",
+      "496",
+      "500",
+      "501"
+    ],
+    "places": [
+      "Champaign Urbana, Illinois, United States",
+      "Milan, Rock Island County, Illinois, United States",
+      "Pontiac, Oakland, Michigan, United States",
+      "Rock Island Moline, Illinois, United States",
+      "Rock Island, Illinois, United States"
+    ],
+    "occurrences": 16
+  },
+  "5": {
+    "personIds": [
+      "188",
+      "463",
+      "464",
+      "465",
+      "466",
+      "467",
+      "469",
+      "472",
+      "491"
+    ],
+    "places": [
+      "East Moline, Illinois, United States",
+      "Grade Completed: Elementary school, 8th grade",
+      "Hampton, Rock Island County, Illinois, United States",
+      "Hillsdale, Rock Island County, Illinois, United States",
+      "Milan, Rock Island County, Illinois, United States",
+      "Other sources of income: No"
+    ],
+    "occurrences": 72
+  },
+  "6": {
+    "personIds": [
+      "162",
+      "163",
+      "164",
+      "184",
+      "185",
+      "188",
+      "197",
+      "302",
+      "424",
+      "426",
+      "430",
+      "431",
+      "433",
+      "463",
+      "465",
+      "468",
+      "472",
+      "482",
+      "492",
+      "494",
+      "495",
+      "497",
+      "498",
+      "502",
+      "503",
+      "510"
+    ],
+    "places": [
+      "Aledo, Mercer County, Illinois, United States",
+      "Cambridge, Henry, Illinois, United States",
+      "Coal Valley, Rock Island County, Illinois, United States",
+      "Corpus Christi, Nueces, Texas, United States",
+      "Coshocton, Ohio, United States",
+      "East Moline, Illinois, United States",
+      "Fairview, Belmont City, Ohio",
+      "Fredericktown, Cecil, Maryland, United States",
+      "Hampton Township, Hampton Village, Rock Island, Illinois",
+      "Hampton, Rock Island County, Illinois, United States",
+      "Hanover, Germany",
+      "Henderson, Knox, Illinois, United States",
+      "Hendrysburg, Ohio",
+      "Highland Center, Wapello, Iowa",
+      "Hillsdale, Rock Island County, Illinois, United States",
+      "Iowa City, Johnson, Iowa, United States",
+      "Milan, Rock Island County, Illinois, United States",
+      "Ocala, Marion, Florida, United States",
+      "Ohio, United States",
+      "Pontiac, Oakland, Michigan, United States",
+      "Rock Island, Illinois, United States",
+      "Silvis, Rock Island County, Illinois, United States",
+      "Sweden",
+      "Toulon, Stark, Illinois, United States",
+      "Tyrone, Ireland",
+      "Weller, Henry, Illinois, United States",
+      "Woodhull, Henry County, Illinois, United States",
+      "Zuma Township, Rock Island County, Illinois, United States"
+    ],
+    "occurrences": 140
+  },
+  "7": {
+    "personIds": [
+      "165",
+      "198",
+      "432",
+      "458",
+      "463",
+      "467",
+      "471",
+      "473"
+    ],
+    "places": [
+      "Aledo, Mercer County, Illinois, United States",
+      "Beaver Dam, Wisconsin",
+      "Crown Point, Indiana, United States",
+      "Davenport, Scott County, Iowa, United States",
+      "East Moline, Illinois, United States",
+      "Lake Charles, Calcasieu, Louisiana, United States",
+      "Milan, Rock Island County, Illinois, United States",
+      "Muscatine, Iowa, United States",
+      "Romeo, Michigan, United States"
+    ],
+    "occurrences": 38
+  },
+  "8": {
+    "personIds": [
+      "463"
+    ],
+    "places": [
+      "East Moline, Illinois, United States"
+    ],
+    "occurrences": 4
+  },
+  "9": {
+    "personIds": [
+      "463"
+    ],
+    "places": [
+      "2422 Whispering Oaks Ct., East Moline"
+    ],
+    "occurrences": 4
+  },
+  "10": {
+    "personIds": [
+      "51",
+      "488"
+    ],
+    "places": [
+      "Rock Island, Illinois, United States"
+    ],
+    "occurrences": 7
+  },
+  "11": {
+    "personIds": [
+      "53",
+      "165",
+      "331",
+      "410",
+      "428",
+      "440",
+      "459",
+      "460",
+      "467",
+      "491",
+      "497",
+      "500"
+    ],
+    "places": [
+      "Clarkston, Oakland County, Michigan, United States",
+      "Davenport, Scott County, Iowa, United States",
+      "East Moline, Illinois, United States",
+      "England",
+      "Greer County, Oklahoma, United States of America",
+      "Hampton, Rock Island County, Illinois, United States",
+      "Illinois City, Rock Island, Illinois, United States",
+      "Iowa, United States",
+      "King, Waupaca County, Wisconsin, United States",
+      "Milan, Rock Island County, Illinois, United States",
+      "Pontiac, Oakland, Michigan, United States",
+      "Rock Island, Illinois, United States",
+      "United States of America",
+      "Wausau, Marathon County, Wisconsin, United States of America",
+      "Weston (Marathon County), Marathon County, Wisconsin, United States",
+      "William E. FERMAN",
+      "William E. FERMAN MALE",
+      "Willow, Greer County, Oklahoma, United States"
+    ],
+    "occurrences": 72
+  },
+  "12": {
+    "personIds": [
+      "56"
+    ],
+    "places": [
+      "Hillsdale, Rock Island County, Illinois, United States"
+    ],
+    "occurrences": 2
+  },
+  "13": {
+    "personIds": [
+      "468",
+      "492",
+      "493"
+    ],
+    "places": [
+      "Coshocton, Ohio, United States",
+      "Ohio, United States",
+      "Rock Island, Illinois, United States",
+      "Zuma Township, Rock Island County, Illinois, United States"
+    ],
+    "occurrences": 8
+  },
+  "14": {
+    "personIds": [
+      "165",
+      "166",
+      "167"
+    ],
+    "places": [
+      "Allerton, Vermilion, Illinois, United States",
+      "Davenport, Scott County, Iowa, United States",
+      "Fairfax, Polk, Minnesota, United States",
+      "Mercer, Illinois, United States"
+    ],
+    "occurrences": 20
+  },
+  "15": {
+    "personIds": [
+      "165",
+      "512"
+    ],
+    "places": [
+      "Dale Allen HOFSTETTER",
+      "Milan, Rock Island County, Illinois, United States"
+    ],
+    "occurrences": 5
+  },
+  "16": {
+    "personIds": [
+      "167"
+    ],
+    "places": [
+      "Fairfax, Polk, Minnesota, United States",
+      "Mercer, Illinois, United States"
+    ],
+    "occurrences": 4
+  },
+  "17": {
+    "personIds": [
+      "185",
+      "187",
+      "188",
+      "195",
+      "200",
+      "432",
+      "465",
+      "468"
+    ],
+    "places": [
+      "Alameda County, California",
+      "Aledo, Mercer County, Illinois, United States",
+      "Cambridge, Henry, Illinois, United States",
+      "Davenport, Scott County, Iowa, United States",
+      "East Moline, Illinois, United States",
+      "Erskin, Minnesota",
+      "Hampton, Rock Island County, Illinois, United States",
+      "Hillsdale, Rock Island County, Illinois, United States",
+      "Milan, Rock Island County, Illinois, United States",
+      "Ohio, United States",
+      "Romeo, Macomb, Michigan, United States",
+      "Toulon, Stark, Illinois, United States"
+    ],
+    "occurrences": 30
+  },
+  "18": {
+    "personIds": [
+      "168",
+      "425",
+      "426",
+      "427",
+      "428",
+      "429",
+      "430",
+      "500"
+    ],
+    "places": [
+      "East Moline, Illinois, United States",
+      "Hampton, Rock Island County, Illinois, United States",
+      "Hillsdale, Rock Island County, Illinois, United States",
+      "Milan, Rock Island County, Illinois, United States",
+      "Rock Island, Illinois, United States",
+      "Zuma Township, Rock Island County, Illinois, United States"
+    ],
+    "occurrences": 24
+  },
+  "19": {
+    "personIds": [
+      "168"
+    ],
+    "places": [
+      "Watertown, Rock Island, Illinois",
+      "Zuma Township, Rock Island County, Illinois, United States"
+    ],
+    "occurrences": 2
+  },
+  "20": {
+    "personIds": [
+      "168"
+    ],
+    "places": [
+      "Zuma Township, Rock Island County, Illinois, United States"
+    ],
+    "occurrences": 2
+  },
+  "21": {
+    "personIds": [
+      "465",
+      "469",
+      "472",
+      "480",
+      "481",
+      "482",
+      "500",
+      "501"
+    ],
+    "places": [
+      "Hampton, Rock Island County, Illinois, United States",
+      "Hillsdale, Rock Island County, Illinois, United States"
+    ],
+    "occurrences": 30
+  },
+  "22": {
+    "personIds": [
+      "428",
+      "429",
+      "465",
+      "469",
+      "472",
+      "481",
+      "482",
+      "491",
+      "500",
+      "501"
+    ],
+    "places": [
+      "Hampton, Rock Island County, Illinois, United States",
+      "Hillsdale, Rock Island County, Illinois, United States",
+      "Milan, Rock Island County, Illinois, United States"
+    ],
+    "occurrences": 40
+  },
+  "23": {
+    "personIds": [
+      "472",
+      "497",
+      "498",
+      "500",
+      "501"
+    ],
+    "places": [
+      "Hampton, Rock Island County, Illinois, United States",
+      "Henderson County, Illinois, United States",
+      "Iowa City, Johnson, Iowa, United States"
+    ],
+    "occurrences": 25
+  },
+  "24": {
+    "personIds": [
+      "428",
+      "432"
+    ],
+    "places": [
+      "Davenport, Scott County, Iowa, United States",
+      "Milan, Rock Island County, Illinois, United States",
+      "Rock Island, Illinois, United States"
+    ],
+    "occurrences": 9
+  },
+  "25": {
+    "personIds": [
+      "429"
+    ],
+    "places": [
+      "Aiken, Aiken County, South Carolina, United States",
+      "Hillsdale, Rock Island County, Illinois, United States"
+    ],
+    "occurrences": 3
+  },
+  "26": {
+    "personIds": [
+      "426",
+      "427",
+      "430"
+    ],
+    "places": [
+      "East Moline, Illinois, United States",
+      "Hillsdale, Rock Island County, Illinois, United States",
+      "Rock Island, Illinois, United States"
+    ],
+    "occurrences": 17
+  },
+  "27": {
+    "personIds": [
+      "430"
+    ],
+    "places": [
+      "Corpus Christi, Nueces, Texas, United States"
+    ],
+    "occurrences": 1
+  },
+  "28": {
+    "personIds": [
+      "426",
+      "431"
+    ],
+    "places": [
+      "East Moline, Illinois, United States",
+      "Hillsdale, Rock Island County, Illinois, United States",
+      "Milan, Rock Island County, Illinois, United States"
+    ],
+    "occurrences": 18
+  },
+  "29": {
+    "personIds": [
+      "504"
+    ],
+    "places": [
+      "East Moline, Illinois, United States",
+      "Silvis, Rock Island County, Illinois, United States",
+      "Weller, Henderson, Illinois, United States"
+    ],
+    "occurrences": 9
+  },
+  "30": {
+    "personIds": [
+      "504"
+    ],
+    "places": [
+      "Silvis, Rock Island County, Illinois, United States",
+      "Weller, Henderson, Illinois, United States"
+    ],
+    "occurrences": 6
+  },
+  "31": {
+    "personIds": [
+      "172",
+      "433"
+    ],
+    "places": [
+      "Hampton, Rock Island County, Illinois, United States",
+      "Zuma Township, Rock Island County, Illinois, United States"
+    ],
+    "occurrences": 9
+  },
+  "32": {
+    "personIds": [
+      "172",
+      "433"
+    ],
+    "places": [
+      "Hampton, Rock Island County, Illinois, United States",
+      "Zuma Township, Rock Island County, Illinois, United States"
+    ],
+    "occurrences": 6
+  },
+  "33": {
+    "personIds": [
+      "433"
+    ],
+    "places": [
+      "Zuma Township, Rock Island County, Illinois, United States"
+    ],
+    "occurrences": 2
+  },
+  "34": {
+    "personIds": [
+      "172",
+      "433"
+    ],
+    "places": [
+      "Hampton, Rock Island County, Illinois, United States",
+      "Zuma Township, Rock Island County, Illinois, United States"
+    ],
+    "occurrences": 6
+  },
+  "35": {
+    "personIds": [
+      "172",
+      "433"
+    ],
+    "places": [
+      "Hampton, Rock Island County, Illinois, United States",
+      "Zuma Township, Rock Island County, Illinois, United States"
+    ],
+    "occurrences": 6
+  },
+  "36": {
+    "personIds": [
+      "162",
+      "173",
+      "469",
+      "470",
+      "482",
+      "492",
+      "495",
+      "498",
+      "507",
+      "509"
+    ],
+    "places": [
+      "Coshocton, Ohio, United States",
+      "East Moline",
+      "East Moline, Illinois, United States",
+      "Hampton Township, Hampton Village, Rock Island, Illinois",
+      "Hampton, Rock Island County, Illinois, United States",
+      "Henderson, Knox, Illinois, United States",
+      "Hillsdale, Rock Island County, Illinois, United States",
+      "Milan, Rock Island County, Illinois, United States",
+      "Sweden",
+      "Zuma Township, Rock Island County, Illinois, United States"
+    ],
+    "occurrences": 64
+  },
+  "37": {
+    "personIds": [
+      "470"
+    ],
+    "places": [
+      "Hampton, Rock Island County, Illinois, United States"
+    ],
+    "occurrences": 4
+  },
+  "38": {
+    "personIds": [
+      "464",
+      "468",
+      "470"
+    ],
+    "places": [
+      "Hampton, Rock Island County, Illinois, United States",
+      "Moline Ward 7, Rock Island, Illinois",
+      "Ohio, United States"
+    ],
+    "occurrences": 12
+  },
+  "39": {
+    "personIds": [
+      "464",
+      "468",
+      "470"
+    ],
+    "places": [
+      "Hampton, Rock Island County, Illinois, United States",
+      "Ohio, United States",
+      "Watertown, Rock Island, Illinois"
+    ],
+    "occurrences": 12
+  },
+  "40": {
+    "personIds": [
+      "468",
+      "470"
+    ],
+    "places": [
+      "Hampton, Rock Island County, Illinois, United States",
+      "Ohio, United States"
+    ],
+    "occurrences": 8
+  },
+  "41": {
+    "personIds": [
+      "469",
+      "470",
+      "510"
+    ],
+    "places": [
+      "Hampton, Rock Island County, Illinois, United States",
+      "Hillsdale, Rock Island County, Illinois, United States",
+      "Rock Island, Illinois, United States"
+    ],
+    "occurrences": 10
+  },
+  "42": {
+    "personIds": [
+      "175"
+    ],
+    "places": [
+      "Reynolds, Rock Island County, Illinois, United States"
+    ],
+    "occurrences": 2
+  },
+  "43": {
+    "personIds": [
+      "177"
+    ],
+    "places": [
+      "Detroit, Wayne, Michigan",
+      "Sweden"
+    ],
+    "occurrences": 6
+  },
+  "44": {
+    "personIds": [
+      "181"
+    ],
+    "places": [
+      "Hampton, Rock Island County, Illinois, United States",
+      "Hillsdale, Rock Island County, Illinois, United States"
+    ],
+    "occurrences": 2
+  },
+  "45": {
+    "personIds": [
+      "187"
+    ],
+    "places": [
+      "Alameda County, California",
+      "East Moline, Illinois, United States"
+    ],
+    "occurrences": 2
+  },
+  "46": {
+    "personIds": [
+      "187"
+    ],
+    "places": [
+      "East Moline, Illinois, United States",
+      "New York, New York, United States"
+    ],
+    "occurrences": 3
+  },
+  "47": {
+    "personIds": [
+      "188"
+    ],
+    "places": [
+      "East Moline Ward 3, Rock Island, Illinois",
+      "East Moline, Illinois, United States"
+    ],
+    "occurrences": 4
+  },
+  "48": {
+    "personIds": [
+      "185",
+      "188"
+    ],
+    "places": [
+      "East Moline, Illinois, United States"
+    ],
+    "occurrences": 10
+  },
+  "49": {
+    "personIds": [
+      "185"
+    ],
+    "places": [
+      "East Moline, Illinois, United States"
+    ],
+    "occurrences": 9
+  },
+  "50": {
+    "personIds": [
+      "198",
+      "199",
+      "467"
+    ],
+    "places": [
+      "Aledo, Mercer County, Illinois, United States",
+      "Chelan, Washington",
+      "East Moline, Illinois, United States"
+    ],
+    "occurrences": 10
+  },
+  "51": {
+    "personIds": [
+      "273"
+    ],
+    "places": [
+      "Manila",
+      "Oklee, Red Lake County, Minnesota, United States",
+      "San Francisco, California, United States"
+    ],
+    "occurrences": 6
+  },
+  "52": {
+    "personIds": [
+      "226"
+    ],
+    "places": [
+      "Saint Ow Creek Township, Cumberland County, New Jersey, United States"
+    ],
+    "occurrences": 1
+  },
+  "53": {
+    "personIds": [
+      "226"
+    ],
+    "places": [
+      "Alabama, United States"
+    ],
+    "occurrences": 1
+  },
+  "54": {
+    "personIds": [
+      "226"
+    ],
+    "places": [
+      "Christiana Hundred, New Castle, Delaware, United States"
+    ],
+    "occurrences": 1
+  },
+  "55": {
+    "personIds": [
+      "498"
+    ],
+    "places": [
+      "Henderson, Knox, Illinois, United States",
+      "Oxford, Henry, Illinois, United States"
+    ],
+    "occurrences": 6
+  },
+  "56": {
+    "personIds": [
+      "498"
+    ],
+    "places": [
+      "East Moline Ward 3, Rock Island, Illinois",
+      "Henderson, Knox, Illinois, United States"
+    ],
+    "occurrences": 6
+  },
+  "57": {
+    "personIds": [
+      "499"
+    ],
+    "places": [
+      "Penn, Sullivan, Missouri, United States",
+      "Scottsville, Sullivan, Missouri, United States",
+      "Woodhull, Henderson, Illinois, United States"
+    ],
+    "occurrences": 6
+  },
+  "58": {
+    "personIds": [
+      "417",
+      "499"
+    ],
+    "places": [
+      "Conway, Taylor County, Iowa, United States",
+      "Harrison, Indiana, United States",
+      "Logan, Allen, Kansas, United States",
+      "Woodhull, Henderson, Illinois, United States"
+    ],
+    "occurrences": 9
+  },
+  "59": {
+    "personIds": [
+      "469",
+      "472",
+      "497",
+      "499"
+    ],
+    "places": [
+      "Davenport, Scott County, Iowa, United States",
+      "Hampton, Rock Island County, Illinois, United States",
+      "Hillsdale, Rock Island County, Illinois, United States",
+      "William E. FERMAN",
+      "William E. FERMAN MALE",
+      "Woodhull, Henderson, Illinois, United States"
+    ],
+    "occurrences": 18
+  },
+  "60": {
+    "personIds": [
+      "499"
+    ],
+    "places": [
+      "Conway, Taylor County, Iowa, United States",
+      "Logan, Allen, Kansas, United States"
+    ],
+    "occurrences": 4
+  },
+  "61": {
+    "personIds": [
+      "302"
+    ],
+    "places": [
+      "Fredericktown, Cecil, Maryland, United States",
+      "Iowa City, Johnson, Iowa, United States"
+    ],
+    "occurrences": 4
+  },
+  "62": {
+    "personIds": [
+      "467"
+    ],
+    "places": [
+      "East Moline, Illinois, United States",
+      "Weston (Marathon County), Marathon County, Wisconsin, United States"
+    ],
+    "occurrences": 4
+  },
+  "63": {
+    "personIds": [
+      "467"
+    ],
+    "places": [
+      "East Moline, Illinois, United States",
+      "Weston (Marathon County), Marathon County, Wisconsin, United States"
+    ],
+    "occurrences": 4
+  },
+  "64": {
+    "personIds": [
+      "483"
+    ],
+    "places": [
+      "Mesa, Illinois, United States"
+    ],
+    "occurrences": 9
+  },
+  "65": {
+    "personIds": [
+      "417"
+    ],
+    "places": [
+      "Harrison, Indiana, United States",
+      "Township 13 North . R .. 1 West, Mercer, Illinois"
+    ],
+    "occurrences": 2
+  },
+  "66": {
+    "personIds": [
+      "501"
+    ],
+    "places": [
+      "Hampton, Rock Island County, Illinois, United States",
+      "Pontiac, Oakland, Michigan, United States"
+    ],
+    "occurrences": 6
+  },
+  "67": {
+    "personIds": [
+      "501"
+    ],
+    "places": [
+      "Hampton, Rock Island County, Illinois, United States",
+      "Milan, Rock Island County, Illinois, United States"
+    ],
+    "occurrences": 4
+  },
+  "68": {
+    "personIds": [
+      "501"
+    ],
+    "places": [
+      "Hampton, Rock Island County, Illinois, United States",
+      "Pontiac, Oakland, Michigan, United States"
+    ],
+    "occurrences": 4
+  },
+  "69": {
+    "personIds": [
+      "424"
+    ],
+    "places": [
+      "Hampton, Rock Island County, Illinois, United States"
+    ],
+    "occurrences": 2
+  },
+  "70": {
+    "personIds": [
+      "424"
+    ],
+    "places": [
+      "Hampton, Rock Island County, Illinois, United States",
+      "Pontiac, Oakland, Michigan, United States"
+    ],
+    "occurrences": 3
+  },
+  "71": {
+    "personIds": [
+      "424"
+    ],
+    "places": [
+      "Hampton, Rock Island County, Illinois, United States"
+    ],
+    "occurrences": 2
+  },
+  "72": {
+    "personIds": [
+      "424"
+    ],
+    "places": [
+      "Hampton, Rock Island County, Illinois, United States"
+    ],
+    "occurrences": 2
+  },
+  "73": {
+    "personIds": [
+      "431"
+    ],
+    "places": [
+      "Milan, Rock Island County, Illinois, United States"
+    ],
+    "occurrences": 3
+  },
+  "74": {
+    "personIds": [
+      "431"
+    ],
+    "places": [
+      "Milan, Rock Island County, Illinois, United States"
+    ],
+    "occurrences": 2
+  },
+  "75": {
+    "personIds": [
+      "432"
+    ],
+    "places": [
+      "Carroll, Iowa",
+      "Davenport, Scott County, Iowa, United States"
+    ],
+    "occurrences": 2
+  },
+  "76": {
+    "personIds": [
+      "432"
+    ],
+    "places": [
+      "Davenport, Scott County, Iowa, United States"
+    ],
+    "occurrences": 2
+  },
+  "77": {
+    "personIds": [
+      "432"
+    ],
+    "places": [
+      "Davenport Ward 2, Scott, Iowa",
+      "Davenport, Scott County, Iowa, United States"
+    ],
+    "occurrences": 2
+  },
+  "78": {
+    "personIds": [
+      "457",
+      "491"
+    ],
+    "places": [
+      "Hampton, Rock Island County, Illinois, United States",
+      "Pontiac, Oakland, Michigan, United States",
+      "Port Byron, Rock Island, Illinois, United States"
+    ],
+    "occurrences": 11
+  },
+  "79": {
+    "personIds": [
+      "464"
+    ],
+    "places": [
+      "Hampton, Rock Island County, Illinois, United States",
+      "Wisconsin, United States"
+    ],
+    "occurrences": 4
+  },
+  "80": {
+    "personIds": [
+      "464",
+      "465"
+    ],
+    "places": [
+      "East Moline, Illinois, United States",
+      "Hampton, Rock Island County, Illinois, United States"
+    ],
+    "occurrences": 8
+  },
+  "81": {
+    "personIds": [
+      "464"
+    ],
+    "places": [
+      "Trinity Lutheran Church, Milan, Rock Island County, Illinois, United States"
+    ],
+    "occurrences": 2
+  },
+  "82": {
+    "personIds": [
+      "464"
+    ],
+    "places": [
+      "Hampton, Rock Island County, Illinois, United States"
+    ],
+    "occurrences": 2
+  },
+  "83": {
+    "personIds": [
+      "465"
+    ],
+    "places": [
+      "Milan, Rock Island County, Illinois, United States"
+    ],
+    "occurrences": 2
+  },
+  "84": {
+    "personIds": [
+      "468"
+    ],
+    "places": [
+      "Hampton, Rock Island County, Illinois, United States",
+      "Ohio, United States"
+    ],
+    "occurrences": 6
+  },
+  "85": {
+    "personIds": [
+      "472",
+      "497"
+    ],
+    "places": [
+      "Hampton, Rock Island County, Illinois, United States",
+      "Iowa City, Johnson, Iowa, United States"
+    ],
+    "occurrences": 12
+  },
+  "86": {
+    "personIds": [
+      "481"
+    ],
+    "places": [
+      "Hampton, Rock Island County, Illinois, United States",
+      "Milan, Rock Island County, Illinois, United States"
+    ],
+    "occurrences": 6
+  },
+  "87": {
+    "personIds": [
+      "482"
+    ],
+    "places": [
+      "Hampton, Rock Island County, Illinois, United States",
+      "Milan, Rock Island County, Illinois, United States"
+    ],
+    "occurrences": 2
+  },
+  "88": {
+    "personIds": [
+      "490"
+    ],
+    "places": [
+      "Milan, Rock Island County, Illinois, United States",
+      "South Moline, Rock Island, Illinois, United States"
+    ],
+    "occurrences": 2
+  },
+  "89": {
+    "personIds": [
+      "494"
+    ],
+    "places": [
+      "Hampton, Rock Island County, Illinois, United States",
+      "Hanover, Germany"
+    ],
+    "occurrences": 2
+  },
+  "90": {
+    "personIds": [
+      "497"
+    ],
+    "places": [
+      "Clover, Illinois",
+      "Hampton, Rock Island County, Illinois, United States",
+      "Hillsdale, Rock Island County, Illinois, United States"
+    ],
+    "occurrences": 9
+  },
+  "91": {
+    "personIds": [
+      "497"
+    ],
+    "places": [
+      "Hampton, Rock Island County, Illinois, United States",
+      "Hillsdale, Rock Island County, Illinois, United States"
+    ],
+    "occurrences": 9
+  },
+  "92": {
+    "personIds": [
+      "497"
+    ],
+    "places": [
+      "Hillsdale, Rock Island County, Illinois, United States"
+    ],
+    "occurrences": 3
+  },
+  "93": {
+    "personIds": [
+      "497"
+    ],
+    "places": [
+      "Hillsdale, Rock Island County, Illinois, United States"
+    ],
+    "occurrences": 3
+  },
+  "94": {
+    "personIds": [
+      "497"
+    ],
+    "places": [
+      "Hillsdale, Rock Island County, Illinois, United States"
+    ],
+    "occurrences": 3
+  },
+  "95": {
+    "personIds": [
+      "502"
+    ],
+    "places": [
+      "Tyrone, Ireland"
+    ],
+    "occurrences": 1
+  },
+  "96": {
+    "personIds": [
+      "503"
+    ],
+    "places": [
+      "Iowa City, Johnson, Iowa, United States",
+      "Monroe, Guernsey, Ohio, United States"
+    ],
+    "occurrences": 2
+  },
+  "97": {
+    "personIds": [
+      "503"
+    ],
+    "places": [
+      "Iowa City, Johnson, Iowa, United States",
+      "Smithfield, De Kalb, Indiana, United States"
+    ],
+    "occurrences": 2
+  },
+  "98": {
+    "personIds": [
+      "503"
+    ],
+    "places": [
+      "Cambridge, Henry, Illinois, United States",
+      "Iowa City, Johnson, Iowa, United States",
+      "Weller, Henry, Illinois, United States"
+    ],
+    "occurrences": 3
+  },
+  "99": {
+    "personIds": [
+      "503"
+    ],
+    "places": [
+      "Iowa City, Johnson, Iowa, United States",
+      "Weller, Henry, Illinois, United States"
+    ],
+    "occurrences": 2
+  },
+  "100": {
+    "personIds": [
+      "503"
+    ],
+    "places": [
+      "Iowa City, Johnson, Iowa, United States"
+    ],
+    "occurrences": 1
+  }
+}

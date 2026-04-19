@@ -1,0 +1,64 @@
+- generic [ref=e31]:
+  - banner [ref=e32]:
+    - generic [ref=e33]:
+      - generic [ref=e34]:
+        - generic [ref=e35]:
+          - heading "Fuhr Family Archive" [level=1] [ref=e36]
+          - generic [ref=e37]: v2.7.0
+        - generic [ref=e38]: 506 members · 581 photos
+      - generic [ref=e39]:
+        - generic [ref=e40]: Welcome, Local Admin
+        - button "Feedback" [ref=e41] [cursor=pointer]
+        - button "Admin" [ref=e42] [cursor=pointer]
+        - button "Sign Out" [ref=e43] [cursor=pointer]
+  - main [ref=e44]:
+    - generic [ref=e45]:
+      - heading "Search the Archive" [level=2] [ref=e46]
+      - generic [ref=e47]:
+        - textbox "Search by name, year, or place…" [ref=e48]
+        - button "Search" [ref=e49] [cursor=pointer]
+    - generic [ref=e50]:
+      - heading "Explore" [level=2] [ref=e51]
+      - generic [ref=e52]:
+        - button "Browse by Surname Explore family names organized alphabetically" [ref=e53] [cursor=pointer]:
+          - img [ref=e54]
+          - generic [ref=e57]:
+            - generic [ref=e58]: Browse by Surname
+            - generic [ref=e59]: Explore family names organized alphabetically
+          - img [ref=e60]
+        - button "Photo Gallery Browse historic and contemporary family photographs" [ref=e62] [cursor=pointer]:
+          - img [ref=e63]
+          - generic [ref=e66]:
+            - generic [ref=e67]: Photo Gallery
+            - generic [ref=e68]: Browse historic and contemporary family photographs
+          - img [ref=e69]
+        - button "Cited Sources Browse records, citations, and plain-language research context" [ref=e71] [cursor=pointer]:
+          - img [ref=e72]
+          - generic [ref=e77]:
+            - generic [ref=e78]: Cited Sources
+            - generic [ref=e79]: Browse records, citations, and plain-language research context
+          - img [ref=e80]
+        - button "Place Pages Explore recurring towns, counties, records, and research leads" [ref=e82] [cursor=pointer]:
+          - img [ref=e83]
+          - generic [ref=e86]:
+            - generic [ref=e87]: Place Pages
+            - generic [ref=e88]: Explore recurring towns, counties, records, and research leads
+          - img [ref=e89]
+        - button "Family Tree Explore the connected family tree rooted in the living generation" [ref=e91] [cursor=pointer]:
+          - img [ref=e92]
+          - generic [ref=e97]:
+            - generic [ref=e98]: Family Tree
+            - generic [ref=e99]: Explore the connected family tree rooted in the living generation
+          - img [ref=e100]
+        - button "Family Analytics Explore statistics and patterns across the family archive" [ref=e102] [cursor=pointer]:
+          - img [ref=e103]
+          - generic [ref=e107]:
+            - generic [ref=e108]: Family Analytics
+            - generic [ref=e109]: Explore statistics and patterns across the family archive
+          - img [ref=e110]
+        - button "Research Library Understand what each record type means and where to dig deeper" [ref=e112] [cursor=pointer]:
+          - img [ref=e113]
+          - generic [ref=e118]:
+            - generic [ref=e119]: Research Library
+            - generic [ref=e120]: Understand what each record type means and where to dig deeper
+          - img [ref=e121]
